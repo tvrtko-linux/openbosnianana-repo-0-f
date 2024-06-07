@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-backports
 Version: 2024
-Date: Fri, 07 Jun 2024 21:28:49 UTC
+Date: Fri, 07 Jun 2024 21:53:00 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b7edb28d8597d861974966932cfcd924a529c35c95d33311e80f823e0d4ec9a4 203 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZje5EACgkQ5Vfn9vbt
-T6qz4w/9HvO4Z+jNcvAkNqtlYQmdF6hSI8C8f7ZGPyngZkDgJSikUBc1mNmxy8g1
-bTS8LicmHbGWf95omkEgnyn6SwxG8TdqdhLsdV1m2Obow/ElpyUdWGV9sshS6D6N
-M0NM46qY3oJcCu2RuxrDU53hcps39zLQnK+N8jjzou99F7RHl0Xi2tF11CSWNysY
-wiQlK/O9IHju+Rv4u1/HHfAcnNKQ4R2SkRQxl7hdReHTDfBiX8SDvyEG6AK6QwrM
-9e8Tfv9KnzM+Yv+AsWHwR9nGgoJZEcEWejRWCUUhW8L/25eMygddO0u51/bbkF/U
-j2JQKGhnlcDAshWK9X7b6Is/7tlZWsIfECwxKHsLYmJh2+ep1K20dtsFe24doM3u
-5/LTTb8Ho7eqbyDp4NkDEzrbPw7NYuP4woWiR57LwgL/J4cNSSgrfi3n8RuGSu4J
-2k7AJscZdApF8bL1p3oZYs7uaCMO48umWy74chPDpVkrC+yAcSnLmaj2L/wW1+Pa
-mcB1p2f9BZjUnWQ0b1fShD/95lsjH+s4ZXRKrqae7uVwpHgF+Rd/gdeO4NyCRRt1
-sJtc/+V35bzNss1jQyQ5FdH/u7WeJy0zl2GAuBM5OnTCABXihOE7j7+6NuVPAPIh
-fItiPaHIBq/BkT7fT6xO5sBVNm+h0JRsLbjzPoKAYkvs+kvcFPo=
-=3BtW
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjgTwACgkQ5Vfn9vbt
+T6pqhBAAwjUNrEtVrlnGxIny9/UxOLnzKxPBV5ixEEfbJuiuZS4EOrF9fwN9q0Ca
+5OSTTvAXtuFM8gt/Ll45uyFbWRkMb+C+0oVDS1VMxdwJx6KwME/haj+lVInsrT7K
+8PohvqocXja9drF+InjamBBs5OH5q98ocISWc3xI6iKhDFNr/C3qQ/9FJpkDrnff
+3KESVReOQKz5eJi8rsYXEPAQhIhZBgtp9aVEqb4ODLomiMcaEooC4AiRtLfa7ueh
+afECWCQnUwdRX3+jftHD2KIR/TNePydiXiWwMZl2Y/98cMgU7tXmBs63hL7ko0V2
+P66l9Yu4f0GixzgSpyz2k5txyMWtQS+w9OLsGA6NCfFUk4lNmE/Sip8jtdYpBjLX
+NRpQ3PnM4vX/hI+rcY5wdRsYxejoBqOWi1euhpBVB6DvmQpZInTxA3vXSQS8nJyp
+uspfh5g0m5KMU/xLGuHXPnP/oGCqpAtYPgaDQjYW/DHgizgeLaQrpDSVh1wmCZ6l
+WH4GUfGxQ7nEwi/e5c7zCS3B9KawuGA/QmP2bwwI89LPN0THRcP5Cysj8ZeRd+dG
+ZrmQl1cfSru4IpMU4cGKx93MfJyUkcuDBKCULOffpf3EbSVUut1KtcUq3vRFHMpU
+7IKvDd0ZSgMWRRVgOtdC2vBTb6yDAsa5f9lDnep8PcVC/RxHoyo=
+=XqD7
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-updates
 Version: 2024
-Date: Fri, 07 Jun 2024 21:28:50 UTC
+Date: Fri, 07 Jun 2024 21:53:01 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  0a2e8eded7d2ba5d048caf028e6ddce8a5234708849fab10d29d2eb93724fa36 201 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZje5IACgkQ5Vfn9vbt
-T6oBcQ/+JFgvikROSv3G7ZjG8h7zrg80PQquv/2UIgkQ0bDmQqpLslYaFSU159Jq
-D7dvbRjzgD9WSU0mwgphVvVOjwakQwrHmZqNbALrmsvoesmxB83ZYGK2BZUuyzWz
-ROLjhCRPms3Tjny7zbmk4xi3EClpHyVXqO+vvzQZtaEB7NfRYImTf/eQrsrkkZry
-T7I0LiL3v/Mb4wwhleRBarwC5RLxAL2EzisqTEVBncUI2vENNse9/zQDgKTLFW9M
-shqOxDbO7743Jl5Md2/ife8kRm2Bw3AT5oqooxr7Ywrn9pH8vcDdIk8RcQ4DUcvF
-BxpGzq1ZKjLMh01yCY2S4fdtcUJi0+/R8Uome+KEYmKnGa6MH4ThRZPY4Aji0HZX
-HhmW68FracqBCX/Y+3Ko6rpL+gQyTOXdae4xRhnRtybqKlKc5+24d6+SV/RyZqCF
-QlQLH99tpyZhfDl6V3m+KnBv9moxl0Le1IHyAOz9vQjfaM+4gdtUavEIwnqqUf7F
-W3Z8asVoAixoBF6lkiQwjUrZf27imyFwkiuPltyeNLuoi5D6r7/SbJs3By6R4LHz
-yskkXwoMAot00PrVXiU+Shc5pv+hB/CyW4qBFw6n99bMcBSEEJzm+GVEo5WCBJcB
-0ndQ/gYKtA49QHODVgfqTpD9SDnz5dSLLXrwr0PGTioqU7bUE9c=
-=hmon
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjgT0ACgkQ5Vfn9vbt
+T6q2Pg/9F9weLAyWMvLoYeVsaqn1iiIvLfitxKj6oXRDEPidfIAABcJ8DGmo4zkt
+td41OkRJrlHK9uOj8+PSfl2WJToYpahwD/7HobeUFoP1NE7TOI5ikl2cG8v22Kag
+5KrFEgN4Lj+PuqmFW5cGK90tBGtRyFt9L4z9zpE/C+Isbm38A5SAzSM3+BzecM5u
+/73VXWV/0iJP0bcao1FNJAZWqiaMOCn2JmI/WIA9F0/xVyj1hbz+OkQs4qsiiJ83
+I9cNueLZIoe5MKoioMkpUE8JPPzfqk89SYZmPR4cAwzXL5HhOtSt1AUuwLlQErw3
+u4iStx6hY49jEI7QIj3TLjH4G74usV6VcjR7ldHEoDcFE4GPGiVpn5cLp05NisAn
+VDwJ9KTq3Pt9q5Em9CPRc6OmJmern7uvJstJOhM9OCghsHttt3X6ZugBRLKV/COO
+GdYAJaP9Ozeb4iCPCvbETenfcFnRwmfuanAwwJB/k6BbhD9Np4V0qnEp59SmunQe
+Niohg2oAT+o6V8uT/jw/tu+xi7cWWR725EtXzwDpWSWi8KotGK7/gwELqbxxaJkz
+uROii0GTHuPTul0BEIUN3sirLMjNFWQzyjincPabML/zAJGev2vgG8R3ztoTZf8d
+5te56Ynn7G/6btuMkXNhXqkk+z3ZIqdtzixz/LBy7whgRNos67I=
+=u931
 -----END PGP SIGNATURE-----

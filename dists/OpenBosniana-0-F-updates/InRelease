@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-updates
 Version: 2024
-Date: Fri, 07 Jun 2024 20:50:24 UTC
+Date: Fri, 07 Jun 2024 21:28:50 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  0a2e8eded7d2ba5d048caf028e6ddce8a5234708849fab10d29d2eb93724fa36 201 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjcpAACgkQ5Vfn9vbt
-T6rEfhAAwgS0aGGrPaSNjUcxKJ0IzsF2u13qO587FUhmYmTB1npV/PZ5LhtHDW0S
-LWWNOfkTPzKwOHftdYXNI4Jeabh4zgMchOgUZfxHrk/d4lOFhOi4DzSFrIxS5J2C
-KacrD3m9JQ+1YOSeiuZI5sUs1mIeQNxryfbKY2x60tCDwQonlcUC4y7E+OcVzlFa
-XRlAk0EWfcrzvnyaVMjTeXaPorxZ4xeqt2kt7OMPr0+PgHi+UJKeO1mexJW6tyCe
-tRQDQXMRcwqayP2EN6l+2QaZfgvCzub3GsuVzvX/3e8VTbb3xTtehVXAEYDgOtra
-+ogfQ1f8GamJ4WtofLVHsQKKv+1C6dH3bREfZfw3aDLiMSpWYxQEQCHhuqq/Xu7j
-E/pmySdhmH/4DfgWSLm86vJjj3FBnVyLtfG8zkOFYdKskScaa8rXugRq6uzoOR/m
-+g01hNUed9j+RXinulAb/zdQ+CK7oaa7ATkR6G80VKKVsgghMhahsEOUtOeQBuT1
-S1i94VsxdeOXVApb4em1Tb/9EuvTzWcyTkJhJQ86h860/9Nb2Ln814IZGTforA16
-2lQX2iGFCfgtuUP/nbcec0OJlhgs8V77pHm5whZBJ7d/UNwJRYSZV/RQXqa9p/qn
-QEpqYQ2qbdnuHC5WM3EgDMavIZl9DX3BxvY5kdPNq6vi8jz2c90=
-=ty2b
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZje5IACgkQ5Vfn9vbt
+T6oBcQ/+JFgvikROSv3G7ZjG8h7zrg80PQquv/2UIgkQ0bDmQqpLslYaFSU159Jq
+D7dvbRjzgD9WSU0mwgphVvVOjwakQwrHmZqNbALrmsvoesmxB83ZYGK2BZUuyzWz
+ROLjhCRPms3Tjny7zbmk4xi3EClpHyVXqO+vvzQZtaEB7NfRYImTf/eQrsrkkZry
+T7I0LiL3v/Mb4wwhleRBarwC5RLxAL2EzisqTEVBncUI2vENNse9/zQDgKTLFW9M
+shqOxDbO7743Jl5Md2/ife8kRm2Bw3AT5oqooxr7Ywrn9pH8vcDdIk8RcQ4DUcvF
+BxpGzq1ZKjLMh01yCY2S4fdtcUJi0+/R8Uome+KEYmKnGa6MH4ThRZPY4Aji0HZX
+HhmW68FracqBCX/Y+3Ko6rpL+gQyTOXdae4xRhnRtybqKlKc5+24d6+SV/RyZqCF
+QlQLH99tpyZhfDl6V3m+KnBv9moxl0Le1IHyAOz9vQjfaM+4gdtUavEIwnqqUf7F
+W3Z8asVoAixoBF6lkiQwjUrZf27imyFwkiuPltyeNLuoi5D6r7/SbJs3By6R4LHz
+yskkXwoMAot00PrVXiU+Shc5pv+hB/CyW4qBFw6n99bMcBSEEJzm+GVEo5WCBJcB
+0ndQ/gYKtA49QHODVgfqTpD9SDnz5dSLLXrwr0PGTioqU7bUE9c=
+=hmon
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-backports
 Version: 2024
-Date: Fri, 07 Jun 2024 20:50:23 UTC
+Date: Fri, 07 Jun 2024 21:28:49 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b7edb28d8597d861974966932cfcd924a529c35c95d33311e80f823e0d4ec9a4 203 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjco8ACgkQ5Vfn9vbt
-T6oqPg/+Oo0w8EJ9DP/3MrDuWLuMg/nUm6AZ9R76xiqcqMO4hAgErHo/fX+pJogP
-prE4KMfZyJQi3tzBHVW7oEfAzmxc5UmX1Qc6EBHFrP4DqLhTsd/zCq6MheiuQVvx
-33vXJjT354ERzjBoncA/fFshsjFaL3WxsZdO1741fy6r2fvRxMtBT0AHYtOz5tPX
-ak8o0yUHiwyLvYvRXiYYswbZwh9h4nqrXhI9aoTXyGt3jqBX7Ujp5IIosM0KZoHf
-FaTfZRDu0wA5xunBb6MeA55DNDD0bBXfMhlI9jBH50aYQk0BF7hvKsAeQwhJBPiM
-lOL1vK6dBsSYzAMSX7HQec3FiuJragMivB9tFVkJ900hB0w0dwGRBLlwCyZAoH5w
-2BSmL5ar5MSQ8407Rt3HKZKRCh4uZlpQzDZUH4ueW1F2mooqJc/k8F45wnQnQB1e
-hCHQnZEjvYNiqyakaaIApn8p9Q+xtS3FQH7FboMprjXnR2isK41oLDsqHcaACVsY
-39kU/CKpyiR9B9pdKBYMEaJVXrrrG7ihx0zoZVjGXg1D2RdRlP2A4dUvAGH1YVm1
-S/8V+ECeqPBmURSzofrNFG2Q2yBX3rpw7m6gnxWyJU9jwBUp/9Y4E7uuhiKjspjs
-GmEPLcbQvGg3/ihdAnu7zlx93etrSLOiH9LuOnMfVR25VLW0qnc=
-=4mG0
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZje5EACgkQ5Vfn9vbt
+T6qz4w/9HvO4Z+jNcvAkNqtlYQmdF6hSI8C8f7ZGPyngZkDgJSikUBc1mNmxy8g1
+bTS8LicmHbGWf95omkEgnyn6SwxG8TdqdhLsdV1m2Obow/ElpyUdWGV9sshS6D6N
+M0NM46qY3oJcCu2RuxrDU53hcps39zLQnK+N8jjzou99F7RHl0Xi2tF11CSWNysY
+wiQlK/O9IHju+Rv4u1/HHfAcnNKQ4R2SkRQxl7hdReHTDfBiX8SDvyEG6AK6QwrM
+9e8Tfv9KnzM+Yv+AsWHwR9nGgoJZEcEWejRWCUUhW8L/25eMygddO0u51/bbkF/U
+j2JQKGhnlcDAshWK9X7b6Is/7tlZWsIfECwxKHsLYmJh2+ep1K20dtsFe24doM3u
+5/LTTb8Ho7eqbyDp4NkDEzrbPw7NYuP4woWiR57LwgL/J4cNSSgrfi3n8RuGSu4J
+2k7AJscZdApF8bL1p3oZYs7uaCMO48umWy74chPDpVkrC+yAcSnLmaj2L/wW1+Pa
+mcB1p2f9BZjUnWQ0b1fShD/95lsjH+s4ZXRKrqae7uVwpHgF+Rd/gdeO4NyCRRt1
+sJtc/+V35bzNss1jQyQ5FdH/u7WeJy0zl2GAuBM5OnTCABXihOE7j7+6NuVPAPIh
+fItiPaHIBq/BkT7fT6xO5sBVNm+h0JRsLbjzPoKAYkvs+kvcFPo=
+=3BtW
 -----END PGP SIGNATURE-----

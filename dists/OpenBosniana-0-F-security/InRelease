@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-security
 Version: 2024
-Date: Fri, 07 Jun 2024 21:53:02 UTC
+Date: Fri, 07 Jun 2024 22:13:25 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b54b255bc1d582e0926a1106744a97eab45d253266070f08149ffe2a27f4f6ce 202 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjgT4ACgkQ5Vfn9vbt
-T6pnLA//YWPv2WBH6kH0X41eP3BuFgTfxiISVz8TPdFB7GpwdkwoE3e07Sp7HQYg
-xMue7CPxb0OWA/XhBwlGilciatEuF5WdgFJNYyY89MBHCYwJEYbB4qSPb3xUEUl7
-S70zEMoJotCL6zsV6TkKV430EzTBoyy+7UYU4vPrRaCrXvHoxxEb81Rk8piFvtpM
-WLaC59Fqz3QMe0kKmKXu8ZvxhvsPD0gOJEDTYNKoi4jlbdQuUepcBrvtzDBVKoLp
-VuufwpnxHH9sEcj3tr/BivZv7VTaF+lEHoUn6DYb7TDe2AhONUvBeIT44fCwbXgr
-mpxsaJqd7D6uEggxFelyNDrpr/LCkUGI+kc+P0Zc/5ZsnM4V8LAsxmcKTncH/QpH
-88GQNhAekkX4B8nBTz0yjCMoe6hBvNbZrO0GD30L6E4HDeGlUJivjthdkLZVU3sT
-L0wmrw3bbVrqduPxcEBVxd0uL49TmlvE9qJNvhXkZc8clLyec6aMCDyZvMMJ4gCv
-z+nRpzKw51lEFhNJNWsoMYOCOk+N62TefrUdxm+rsnvTt90+2dZVowXC79Iv4gKp
-C4iAMhBNX5Wksp+UNjC7MxcCoKeg5v46ia55XKwAE76KMV2tJ2pM0hfnwjc4xbPV
-I2nUkC6dKOxfW+fGadeRVvAy3QYqQWKk6xNjS5b8oSTPlFR3Nws=
-=k07q
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjhgUACgkQ5Vfn9vbt
+T6rytA/+KxoEFDrb7UtSAwhC7N7/xZW65evJO93w6vkvE1hncOBSMqNJHcpNrAdN
+prE4TEbrQv4rMvRyhXGSRuComplknqOy0kfyTJNMpEepzf26rAm/xC3Or0AIPokH
+PirSA+rKq9H2jN/yIkmdpcc+2Ue97DlKtv+LeSkmahzC4siVxqy6g1Pxahz/4k5n
+Bfs2dT3QPZMy0uj+Nr2EgwT6ebF8K+7wtcgPlGkFKm4FuK1WSxNjaUtud4a7uMku
+tDv+L7Ek5QOx9jHQMsX5lQ/j961jCq0yBb51Qg7a4PiVjHQKY+DqWiQlGtiZQ+kx
+yFDghZCrZ0Vq5y0PEWe7UUkZ8bpd9HSBRTIwS5/q/r42MfwPamcR4HVIVCgTpPvK
+fALahz6tzohlw2JGg5EP0nBS0VoaxbfxLFtqmOwuPWqrj4L1/hoxVLchQBAZbj0r
+j6W96QQOVFmu8/SKbFs/MOEkpN2t5xJWgdKWWm3+TiihVcCXOQjiBDNJsf5YRmOr
+bimqeIbPdIAwFGzqmMPMGTfDqqS6mNA8sIm2fLDHU8858jYLqY+3f5/5yykKRLq6
+wSoUu0MRV4r6PcalpBvwZGVD8PZgx3syFYArLlTb23amMJYizDNg64BE5vzbXwkx
+u3J+LxgQyJ+pop9SAl7P5wvLqJ90bnHZBRTyHkSbZAviEmdHEMI=
+=1oEC
 -----END PGP SIGNATURE-----

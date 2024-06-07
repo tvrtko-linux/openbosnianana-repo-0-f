@@ -12940,6 +12940,25 @@ Description: network backup service - SQLite 3 storage for Director
  Please be aware that using SQLite 3 databases is no longer supported
  by the author.
 
+Package: bacula-doc
+Version: 9.6.7-2
+Architecture: all
+Maintainer: Debian Bacula Team <pkg-bacula-devel@lists.alioth.debian.org>
+Installed-Size: 25498
+Multi-Arch: foreign
+Homepage: https://www.bacula.org/
+Priority: optional
+Section: doc
+Filename: pool/main/b/bacula-doc/bacula-doc_9.6.7-2_all.deb
+Size: 22185564
+SHA256: 64c2cd53ecbc1b19a59fa86992729679cfd8d5d2e0b5fc80cafdaa442058bf3f
+SHA1: 3f7ad8644c6b0f1c7cf17363812f59595348e1ff
+MD5sum: 04a300e191d4abdd2e7025e651cd10d8
+Description: Documentation for Bacula
+ This package provides the documentation for Bacula, a backup program
+ that permits you to manage backup, recovery, and verification of
+ computer data across a network of computers of different kinds.
+
 Package: bacula-server
 Source: bacula
 Version: 9.6.7-7
@@ -13643,6 +13662,33 @@ Description: Supporting library to test bats helper libraries
   * output formatting
   * language tools
 
+Package: bazel-bootstrap-data
+Source: bazel-bootstrap
+Version: 4.2.3+ds-9
+Architecture: all
+Maintainer: Debian Bazel Team <bazel-team@lists.launchpad.net>
+Installed-Size: 96635
+Depends: libjs-jquery, node-core-js, node-html5shiv
+Suggests: bash-completion
+Multi-Arch: foreign
+Homepage: https://bazel.build/
+Priority: optional
+Section: devel
+Filename: pool/main/b/bazel-bootstrap/bazel-bootstrap-data_4.2.3+ds-9_all.deb
+Size: 18411112
+SHA256: 55c1cd9d76d18342c53f1597c2feec0bf7af3f9d1c55c4075ff4f17f785b8e9e
+SHA1: b04a8cfc233f9f1221eb9e49e3b4c21bb5113bd6
+MD5sum: 65e29c39bfb29d40f6e4724a680c88c2
+Description: Tool to automate software builds and tests (data files)
+ Supported build tasks include running compilers and linkers to produce
+ executable programs and libraries, and assembling deployable packages
+ for Android, iOS and other target environments. Bazel is similar to
+ other tools like Make, Ant, Gradle, Buck, Pants and Maven.
+ .
+ This package contains architecture-independent data for the bootstrap variant
+ of Bazel and should only be used on systems that do not have the full version
+ of Bazel built yet.
+
 Package: bazel-bootstrap-source
 Source: bazel-bootstrap
 Version: 4.2.3+ds-9
@@ -13808,6 +13854,45 @@ Description: Reboot of the BBDB Insidious Big Brother Database for Emacs
  addresses, phone numbers and the like.  It can be linked with various
  Emacs mail clients (Message and Mail mode, Rmail, Gnus, MH-E, Mu4e,
  VM, and Wanderlust).  BBDB is fully customizable.
+
+Package: bbmap
+Version: 39.01+dfsg-2
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 9338
+Depends: libmpj-java, openjdk-17-jre-headless | java-runtime-headless
+Recommends: pigz
+Provides: bbtools
+Homepage: https://sourceforge.net/projects/bbmap/
+Priority: optional
+Section: science
+Filename: pool/main/b/bbmap/bbmap_39.01+dfsg-2_all.deb
+Size: 8740372
+SHA256: 2b29fb2dddf3ca83965cfc0ea00f33fdf21d544853e32e0d271869825269b2a5
+SHA1: 95507e44845d942572b83a098c79104ec815a2b8
+MD5sum: 09840d0b359c1ab877e8d4392eefca87
+Description: BBTools genomic aligner and other tools for short sequences
+ The BBTools are a collection of small programs to solve recurrent
+ tasks for the creative handling of short biological RNA/DNA sequences.
+ This suite may be best known for its mapper, which is also the name of
+ the project on sourceforge, but several tools have been added over time.
+ All tools are multi-threaded, implemented platform-independently in Java:
+ .
+ BBMap: Short read aligner for DNA and RNA-seq data. Capable of handling
+ arbitrarily large genomes with millions of scaffolds. Handles Illumina,
+ PacBio, 454, and other reads; very high sensitivity and tolerant of
+ errors and numerous large indels.
+ .
+ BBNorm: Kmer-based error-correction and normalization tool.
+ .
+ Dedupe: Simplifies assemblies by removing duplicate or contained
+ subsequences that share a target percent identity.
+ .
+ Reformat: Reformats reads between fasta/fastq/scarf/fasta+qual/sam,
+ interleaved/paired, and ASCII-33/64, at over 500 MB/s.
+ .
+ BBDuk: Filters, trims, or masks reads with kmer matches to an
+ artifact/contaminant file.
 
 Package: bcnc
 Version: 0.9.14.318+ds-4
@@ -14081,6 +14166,52 @@ Description: Bayesian MCMC phylogenetic inference - example data
  .
  This package contains the example data.
 
+Package: bedops-doc
+Source: bedops
+Version: 2.4.41+dfsg-1
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 29902
+Depends: libjs-sphinxdoc, libjs-mathjax
+Multi-Arch: foreign
+Homepage: https://github.com/bedops/bedops
+Priority: optional
+Section: doc
+Filename: pool/main/b/bedops/bedops-doc_2.4.41+dfsg-1_all.deb
+Size: 21969652
+SHA256: 9cb5f2253f31a956f59e0981fc4f8cecfe562f96ea95f5acb677c6717c4cb4a3
+SHA1: 311dae11213f8aa75769ba6d01720d63ed9117a9
+MD5sum: bd6e58598f395303c36f625762e6d276
+Description: high-performance genomic feature operations (documentation)
+ BEDOPS is a suite of tools to address common questions raised in genomic
+ studies, mostly with regard to overlap and proximity relationships between
+ data sets.
+ It aims to be scalable and flexible, facilitating the efficient and accurate
+ analysis and management of large-scale genomic data.
+ .
+ This package contains the BEDOPS documentation.
+
+Package: bedtools-test
+Source: bedtools
+Version: 2.30.0+dfsg-3
+Architecture: all
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Installed-Size: 46722
+Suggests: bedtools
+Multi-Arch: foreign
+Homepage: https://github.com/arq5x/bedtools2
+Priority: optional
+Section: science
+Filename: pool/main/b/bedtools/bedtools-test_2.30.0+dfsg-3_all.deb
+Size: 10814068
+SHA256: 3d0d68a46679d7f4a005cf83fa3171d302a6090738afc2bfb388ab307bfea25b
+SHA1: 7215deb4fd966f59ff0289d2a6fba83114ccf880
+MD5sum: 0a1438fed0bf6dd2facc1ace803e752e
+Description: test data for the bedtools package
+ Test data for the BEDTools suite of utilities for comparing genomic features.
+ It is distributed in a separate package because it is large and
+ architecture-independent.
+
 Package: beets
 Version: 1.6.0-4
 Architecture: all
@@ -14136,6 +14267,43 @@ Description: music tagger and library organizer - documentation
  can play music in your beets library using any MPD client.
  .
  This package provides detailed documentation on beets usage.
+
+Package: beneath-a-steel-sky
+Version: 0.0372-8
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 71218
+Depends: scummvm
+Homepage: https://www.scummvm.org
+Priority: optional
+Section: games
+Filename: pool/main/b/beneath-a-steel-sky/beneath-a-steel-sky_0.0372-8_all.deb
+Size: 66024312
+SHA256: e2a25c880220c26a4dfd42904b878cc655afa1c72895f9c932befbd078622934
+SHA1: eb8e9041c986592a1fc6a86c691e1657b4f7bee4
+MD5sum: b2e66bd9f3b1d9e1f31b9c8bbd7fc047
+Description: classic 2D point and click science fiction adventure game
+ A science-fiction thriller set in a bleak post-apocalyptic vision
+ of the future, Beneath a Steel Sky revolves around "Union City",
+ where selfishness, rivalry, and corruption by its citizens seems to
+ be all too common, those who can afford it live underground, away
+ from the pollution and social problems which are plaguing the city.
+ .
+ You take on the role of Robert Foster, an outcast of sorts from the
+ city since a boy who was raised in a remote environment outside of
+ Union City simply termed "the gap".  Robert's mother took him away
+ from Union City as a child on their way to "Hobart" but the helicopter
+ crashed on its way, unfortunately Robert's mother dies, but he
+ survives and is left to be raised by a local tribe from the gap.
+ .
+ Years later, Union City security drops by and abducts Robert, killing
+ his tribe in the process; upon reaching the city the helicopter taking
+ him there crashes with him escaping, high upon a tower block in the
+ middle of the city he sets out to discover the truth about his past,
+ and to seek vengeance for the killing of his tribe.
+ .
+ Note that this package only contains game-data.  The game engine is
+ provided by ScummVM.
 
 Package: bepasty
 Version: 1.0.0-1+deb12u1
@@ -14483,6 +14651,40 @@ Description: bash attachment mailer
  It is similar to using Mutt to send attachments on the commandline,
  but without the overhead of a complete email client.
 
+Package: bibata-cursor-theme
+Version: 2.0.3-4
+Architecture: all
+Maintainer: Kentaro Hayashi <kenhys@xdump.org>
+Installed-Size: 441581
+Depends: hicolor-icon-theme
+Homepage: https://github.com/ful1e5/Bibata_Cursor
+Priority: optional
+Section: x11
+Filename: pool/main/b/bibata-cursor-theme/bibata-cursor-theme_2.0.3-4_all.deb
+Size: 25211012
+SHA256: 435693e7fbbf111a18712167f1ee5d34963e7f091c4bc0b96661c05125cdc652
+SHA1: bf96bffb08f2f2bba4f04061677fa9b95011dac0
+MD5sum: f8fb0c79446859dc7503a040cec86451
+Description: Bibata is open source, compact, and material designed cursor set
+ This cursor set is the masterpiece of cursors available on the
+ internet, Hand designed by Abdulkaiz Khatri.
+ .
+ This project masterelop for improve cursor experience.
+ .
+ Bibata is one of the most popular cursors set in the Linux community
+ so far and is now available for freely with multiple colors and size
+ options for Windows as well. The aim of this project is to provide
+ the personalized cursors to users.
+ .
+ This package contains the following cursor themes:
+ .
+  * Bibata Original Amber: Yellowish and sharp edge bibata cursors.
+  * Bibata Modern Amber: Yellowish and rounded edge bibata cursors.
+  * Bibata Original Classic: Black and sharp edge bibata cursors.
+  * Bibata Modern Classic: Black and rounded edge bibata cursors.
+  * Bibata Original Ice: White and sharp edge bibata cursors.
+  * Bibata Modern Ice: White and rounded edge bibata cursors.
+
 Package: biber
 Version: 2.18-1
 Architecture: all
@@ -14537,6 +14739,49 @@ Description: King James Version of the Bible - text and concordance
  The text and concordance are compressed and require the bible-kjv package
  which contains a text-based user interface for accessing the text.
 
+Package: bibledit-cloud-data
+Source: bibledit-cloud
+Version: 5.0.992-4
+Architecture: all
+Maintainer: CrossWire Packaging Team <pkg-crosswire-devel@alioth-lists.debian.net>
+Installed-Size: 225114
+Multi-Arch: foreign
+Homepage: http://bibledit.org
+Priority: optional
+Section: editors
+Filename: pool/main/b/bibledit-cloud/bibledit-cloud-data_5.0.992-4_all.deb
+Size: 38959300
+SHA256: b4071efb1d65e0ae2d9f8894d6af53a30e41396cc249d89be72cdd42c09e94c3
+SHA1: b88b66ac49f0b146e0d3e14ae64e331045fa72c1
+MD5sum: a5c3207c6c16f2f0931566c3001debac
+Description: Data for bibledit-cloud
+ Contains pictures, icons, lexicons, scripts.
+ This is normally not installed manually.
+ The bibledit-cloud package will install it automatically.
+
+Package: bibledit-data
+Source: bibledit
+Version: 5.0.994-3
+Architecture: all
+Maintainer: CrossWire Packaging Team <pkg-crosswire-devel@alioth-lists.debian.net>
+Installed-Size: 226865
+Recommends: fonts-sil-ezra
+Breaks: bibledit-gtk-data (<< 4.9-1~)
+Replaces: bibledit-gtk-data (<< 4.9-1~)
+Multi-Arch: foreign
+Homepage: https://bibledit.org
+Priority: optional
+Section: editors
+Filename: pool/main/b/bibledit/bibledit-data_5.0.994-3_all.deb
+Size: 40583872
+SHA256: 1eb4d47e7e91d7755e4b0fe34a6ad053ccdb4597bdc5b81cb6f493d5d35a6be0
+SHA1: 9e1bf47c8b3b45d29904123a159f3ca3881bcedd
+MD5sum: 824463893cb43b3b30c4dcd5afcb873b
+Description: Data for bibledit
+ Contains pictures, icons, lexicons, scripts.
+ This is normally not installed manually.
+ The bibledit package will install it automatically.
+
 Package: bibletime-data
 Source: bibletime
 Version: 3.0.3-3
@@ -14579,6 +14824,28 @@ Description: larger mouse cursors for X
  This package provides some large mouse cursors for use under X. It's useful
  for laptop users, for those running X at very high resolutions, and for
  anyone who finds it hard to see the default mouse cursors.
+
+Package: biglybt
+Version: 3.2.0.0-1
+Architecture: all
+Maintainer: Debian Java Maintainers <pkg-java-maintainers@lists.alioth.debian.org>
+Installed-Size: 19302
+Depends: libbcprov-java (>= 1.69), libcommons-cli-java (>= 1.4), libswt-gtk-4-java, libswt-cairo-gtk-4-jni, libswt-webkit-gtk-4-jni
+Suggests: biglybtd
+Provides: azureus, vuze
+Homepage: http://www.biglybt.com
+Priority: optional
+Section: java
+Filename: pool/main/b/biglybt/biglybt_3.2.0.0-1_all.deb
+Size: 17974252
+SHA256: 7f00279ed35e3c48d610cb28e2d83c41a650ea500f029b0b04d956f5a785b4ff
+SHA1: f590edaf87199f6bbd87993ab954783e2f71e2a5
+MD5sum: 7224497278331802356ff347ea3306a9
+Description: BitTorrent client
+ BiglyBT is a feature filled, open source, ad-free, BitTorrent client used
+ to transfer files via the BitTorrent protocol. BiglyBT is the continuation
+ of the Vuze/Azureus project first created in 2003, and is being actively
+ developed by the original coders.
 
 Package: biglybtd
 Source: biglybt

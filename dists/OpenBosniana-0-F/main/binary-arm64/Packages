@@ -19529,6 +19529,27 @@ Description: German-Modern Greek dictionary for the dict server/client
  contains 10185 headwords (FreeDict status: big enough to be useful). It can be
  either used with the dictd server and a dict client or with GoldenDict.
 
+Package: dict-freedict-deu-eng
+Source: freedict
+Version: 2022.04.21-1
+Architecture: all
+Maintainer: Sebastian Humenda <shumenda@gmx.de>
+Installed-Size: 28897
+Suggests: dictd | dicod, dict | kdict | gnome-dictionary | goldendict
+Provides: dictd-dictionary
+Homepage: https://freedict.org/
+Priority: optional
+Section: text
+Filename: pool/main/f/freedict/dict-freedict-deu-eng_2022.04.21-1_all.deb
+Size: 20969636
+SHA256: 52fa2ba6c73ebe84df0e4a7b8612a94a45e6026a157fc75f5ae36c4a1106e3db
+SHA1: 9501a95261434566421f0077fa2e3c6253cb6edd
+MD5sum: 8aaae7308509c68c910458f0d67cf2cc
+Description: German-English dictionary for the dict server/client
+ This is the German-English dictionary from the FreeDict project. It contains
+ 517534 headwords (FreeDict status: stable). It can be either used with the
+ dictd server and a dict client or with GoldenDict.
+
 Package: dict-freedict-deu-fin
 Source: freedict-wikdict
 Version: 2022.12.07-2
@@ -20241,6 +20262,27 @@ MD5sum: 7d945c23a60c88dc6a7a9028d06749d2
 Description: English-Danish dictionary for the dict server/client
  This is the English-Danish dictionary from the FreeDict project. It contains
  411 headwords (FreeDict status: too small). It can be either used with the
+ dictd server and a dict client or with GoldenDict.
+
+Package: dict-freedict-eng-deu
+Source: freedict
+Version: 2022.04.21-1
+Architecture: all
+Maintainer: Sebastian Humenda <shumenda@gmx.de>
+Installed-Size: 25623
+Suggests: dictd | dicod, dict | kdict | gnome-dictionary | goldendict
+Provides: dictd-dictionary
+Homepage: https://freedict.org/
+Priority: optional
+Section: text
+Filename: pool/main/f/freedict/dict-freedict-eng-deu_2022.04.21-1_all.deb
+Size: 19171420
+SHA256: e85da1519a4d5efdbd7a5a169e828b97920f91e899f45d56fd5b2266a05b5906
+SHA1: d17389f0cb4159664e80f9d0a97d27d870cd7d5a
+MD5sum: bfde3f41b934d44af6299be4f172b2f5
+Description: English-German dictionary for the dict server/client
+ This is the English-German dictionary from the FreeDict project. It contains
+ 460315 headwords (FreeDict status: stable). It can be either used with the
  dictd server and a dict client or with GoldenDict.
 
 Package: dict-freedict-eng-ell
@@ -32491,6 +32533,36 @@ Description: GnuPG archive key for Debian FastTrack Repository
  .
  You can read more information about the repository from the homepage.
 
+Package: faust-common
+Source: faust
+Version: 2.54.9+ds0-1
+Architecture: all
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Installed-Size: 70863
+Breaks: faust (<< 0.9.90~repack1-1)
+Replaces: faust (<< 0.9.90~repack1-1)
+Multi-Arch: foreign
+Homepage: https://faust.grame.fr/
+Priority: optional
+Section: sound
+Filename: pool/main/f/faust/faust-common_2.54.9+ds0-1_all.deb
+Size: 46912320
+SHA256: 9c54ddbb099b890942f7447faa652b71ade4fbc6b62ce148335ddf8d57a41463
+SHA1: b2b43fe3c4360d7f869f52a93a4d777c57622f68
+MD5sum: e1acf353d712ac79cbb1469e289e74f0
+Description: functional programming language for realtime audio applications - common files
+ Faust is a functional programming language specifically designed for realtime
+ audio applications and plugins. The syntax of the language is block diagram
+ oriented. The faust compiler translate signal processing specifications into
+ optimized C++ code for signal processing applications.
+ .
+ The generated code can be wrapped into an 'architecture file' in order to
+ create for example a standalone jack/gtk application. Several architecture
+ file are provided and additional ones are fairly easy to add.
+ .
+ This package contains the architecture independent files for faust as well as
+ syntax highlighting files for various editors.
+
 Package: fb-music-high
 Version: 0.1.2+nmu2
 Architecture: all
@@ -34994,6 +35066,28 @@ Description: Pipe-oriented frontend to Gnuplot
  data representations are supported, as is hardcopy output and streaming display
  of live data.
 
+Package: felix-latin-data
+Source: felix-latin
+Version: 2.0-14
+Architecture: all
+Maintainer: Georges Khaznadar <georgesk@debian.org>
+Installed-Size: 105629
+Multi-Arch: foreign
+Homepage: https://home.gna.org/felix/
+Priority: extra
+Section: misc
+Filename: pool/main/f/felix-latin/felix-latin-data_2.0-14_all.deb
+Size: 98781528
+SHA256: 4bab449717661f0c607a6b878c3799b48d4c68b31f52c34e431845150349e333
+SHA1: 6bcd292d2dd3003c9e94aa0ad7dd0a2ebea91658
+MD5sum: 485fbe8928659ea3d96368597d605c02
+Description: Félix Gaffiot's Latin-French dictionary - data
+ Félix Gaffiot (1870-1937) was a philologist, a teacher of French, and the
+ author of a Latin-French reference dictionary.
+ .
+ This package provides the dictionary pages (in scanned image form) for
+ use with the package felix-latin.
+
 Package: felix-main
 Version: 5.0.0-5
 Architecture: all
@@ -35195,6 +35289,37 @@ Description: CASE tool for data model editing
  GNU Ferret (Free Entity Relationship and Reverse Engineering Tool)
  serves to edit data models. These can be implemented within a range of
  relational databases such as PostgreSQL or MySQL.
+
+Package: ferret-datasets
+Source: ferret-vis
+Version: 7.6.0-5
+Architecture: all
+Maintainer: Alastair McKinstry <mckinstry@debian.org>
+Installed-Size: 84814
+Recommends: ferret-vis
+Multi-Arch: foreign
+Homepage: https://ferret.pmel.noaa.gov/Ferret/home
+Priority: optional
+Section: utils
+Filename: pool/main/f/ferret-vis/ferret-datasets_7.6.0-5_all.deb
+Size: 27795908
+SHA256: e5770222647ebfe2ab77b845e07a7e05cb6fed7b12dec9ae287a1f8046031744
+SHA1: 2b8c0489552d23add22cfe6259d509116f1bedd9
+MD5sum: 13eef88f007f4b8d82acd805d23a6bd4
+Description: Datasets for use with Ferret Visualisation and analysis suite
+ These datasets contain reference climatologies and grids for use with ferret.
+ They include:
+  * etopo120            relief of the earth's surface at 120-minute resolution
+  * etopo60             relief of the earth's surface at 60-minute resolution
+  * levitus_climatology subset of the Climatological Atlas of the World Oceans
+                        by Sydney Levitus (Note: the updated World Ocean Atlas,
+                        1994, is also available with Ferret)
+  * coads_climatology   12-month climatology derived from 1946–1989 of the
+                        Comprehensive Ocean/Atmosphere Data Set
+  * monthly_navy_winds  monthly-averaged Naval Fleet Numerical Oceanography
+                        Center global marine winds (1982–1990)
+  * esku_heat_budget    Esbensen-Kushnir 4×5 degree monthly climatology of the
+                        global ocean heat budget (25 variables)
 
 Package: festival-ca
 Version: 3.0.6-2
@@ -36167,6 +36292,84 @@ Description: simple game where two players try to capture half the board
  Filler is a simple game where two players try to capture half of the board.
  Players take turns selecting colours to capture all adjacent hexes of the
  same colour.
+
+Package: fillets-ng-data
+Version: 1.0.1-1.1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 80056
+Depends: fonts-freefont-ttf
+Recommends: fillets-ng (>= 1.0.0)
+Suggests: fillets-ng-data-cs (>= 1.0.0)
+Homepage: http://fillets.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/f/fillets-ng-data/fillets-ng-data_1.0.1-1.1_all.deb
+Size: 70633484
+SHA256: 25de89afd8b1adf7bcace8290248a6a22c89cd42300317e69000e162c032cf84
+SHA1: 095a3e55f0f906a3fbbdf728a2aed5fa4ec50c48
+MD5sum: c08c4e8bc69fb7c36047387bdb944b16
+Description: docs, graphics, music and international sounds for fillets-ng
+ Fish Fillets is strictly a puzzle game. The goal in every of the seventy
+ levels is always the same: find a safe way out. The fish utter witty remarks
+ about their surroundings, the various inhabitants of their underwater realm
+ quarrel among themselves or comment on the efforts of your fish. The whole
+ game is accompanied by quiet, comforting music.
+ .
+ This package contains the data needed for the game. You need it, even
+ if you also install the add-on Czech language spoken dialogs.
+
+Package: fillets-ng-data-cs
+Source: fillets-ng-data
+Version: 1.0.1-1.1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 45416
+Recommends: fillets-ng (>= 1.0.0), fillets-ng-data (>= 1.0.0)
+Homepage: http://fillets.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/f/fillets-ng-data/fillets-ng-data-cs_1.0.1-1.1_all.deb
+Size: 39042172
+SHA256: 3ecef99b9456f1c80c9625c6f2418642b52d58e7167a46bad7a412db17991b14
+SHA1: d3cda103be749bec462e06725d8153b7ebfa2d83
+MD5sum: 4d8b995e170ca3534a32c86a643fd0c2
+Description: add-on sounds for Czech language spoken dialogs for fillets-ng
+ Fish Fillets is strictly a puzzle game. The goal in every of the seventy
+ levels is always the same: find a safe way out. The fish utter witty remarks
+ about their surroundings, the various inhabitants of their underwater realm
+ quarrel among themselves or comment on the efforts of your fish. The whole
+ game is accompanied by quiet, comforting music.
+ .
+ This package contains add-on sound-files for Czech language spoken
+ dialogs. It is a completely optional add-on and does not replace
+ fillets-ng-data, which is still needed for graphics and other sounds.
+
+Package: fillets-ng-data-nl
+Source: fillets-ng-data
+Version: 1.0.1-1.1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 38931
+Recommends: fillets-ng (>= 1.0.0), fillets-ng-data (>= 1.0.0)
+Homepage: http://fillets.sourceforge.net/
+Priority: optional
+Section: games
+Filename: pool/main/f/fillets-ng-data/fillets-ng-data-nl_1.0.1-1.1_all.deb
+Size: 32593580
+SHA256: afb4443fda9ab507dee578b75be857d121718a1cd6017a474f30e0eb13dc9d10
+SHA1: caa726ae02ae5cdb29a1458a5983dc1fba5b3430
+MD5sum: 6ba075bb40c3e2c695929756d8b713ea
+Description: add-on sounds for Dutch language spoken dialogs for fillets-ng
+ Fish Fillets is strictly a puzzle game. The goal in every of the seventy
+ levels is always the same: find a safe way out. The fish utter witty remarks
+ about their surroundings, the various inhabitants of their underwater realm
+ quarrel among themselves or comment on the efforts of your fish. The whole
+ game is accompanied by quiet, comforting music.
+ .
+ This package contains add-on sound-files for Dutch language spoken
+ dialogs. It is a completely optional add-on and does not replace
+ fillets-ng-data, which is still needed for graphics and other sounds.
 
 Package: filtlong-data
 Source: filtlong
@@ -39355,6 +39558,39 @@ Description: utilities to call the Flickr API from command line - documentation
  This package contains the HTML documentation for flickcurl and the
  related library.
 
+Package: flight-of-the-amazon-queen
+Version: 1.0.0-9
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 52939
+Depends: scummvm (>= 0.6.0-1)
+Suggests: gettext-base
+Homepage: http://www.scummvm.org
+Priority: optional
+Section: games
+Filename: pool/main/f/flight-of-the-amazon-queen/flight-of-the-amazon-queen_1.0.0-9_all.deb
+Size: 34859620
+SHA256: 40c08fd258d6fe95c46c1eaf5e9137f84ba330657995a281bd887c94a560a0f1
+SHA1: 95568e4d3e04b592032975c1519abfa945dc82ad
+MD5sum: a7a919158733f138466f249e68af8d2a
+Description: classic 2D point and click fantasy adventure game
+ Flight of the Amazon Queen is a 2D point-and-click adventure game set
+ in the 1940s, originally published for DOS and the Amiga.
+ .
+ You assume the role of Joe King, a pilot for hire who is given the job
+ of flying Faye Russell (a famous movie star) into the Amazon jungle for
+ a photo shoot. Of course, things never go according to plans. After an
+ unfortunate turn of events they find themselves stranded in the heart
+ of the Amazon jungle, where Joe will embark on a quest to rescue a
+ kidnapped princess and in the process, discover the true sinister
+ intentions of a suspiciously located Lederhosen company. In a rich 2D
+ environment, Joe will cross paths with a variety of unlikely jungle
+ inhabitants including, but not limited to, a tribe of Amazon women and
+ 6-foot-tall pygmies.
+ .
+ Note that this package only contains game-data. The game engine is
+ provided by ScummVM.
+
 Package: flightgear-data-all
 Source: flightgear-data
 Version: 1:2020.3.16+dfsg-1
@@ -41518,6 +41754,76 @@ Description: sets the computer modern unicode fonts
  The fonts contain glyphs from Latin1, Cyrillic and Greek
  code sets.
 
+Package: fonts-cns11643-kai
+Source: fonts-cns11643
+Version: 103.1+20181001-1
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 147084
+Multi-Arch: foreign
+Homepage: http://www.cns11643.gov.tw
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-cns11643/fonts-cns11643-kai_103.1+20181001-1_all.deb
+Size: 59917200
+SHA256: c8c92e76357c0980b50d80d83674a5109a11624df83b9994c9118ad3aec31ece
+SHA1: c7e7f86f4ffff72a80398acd91402b69e2d84abb
+MD5sum: fe04f99145b8e3990ffe0df0553db24d
+Description: Chinese TrueType font, TW-Kai
+ The CNS 11643 character set (Chinese National Standard 11643),
+ also officially known as the "Chinese Standard Interchange Code",
+ is officially the standard character set of the Republic of China.
+ (In practice, variants of Big5 are de facto standard.)
+ .
+ TW-Kai is released by RDEC, Executive Yuan, ROC.
+ It covers the characters plane 1 to 9 defined by CNS11643.
+
+Package: fonts-cns11643-pixmaps
+Source: fonts-cns11643
+Version: 103.1+20181001-1
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 187451
+Multi-Arch: foreign
+Homepage: http://www.cns11643.gov.tw
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-cns11643/fonts-cns11643-pixmaps_103.1+20181001-1_all.deb
+Size: 86464228
+SHA256: d2c1f53d1abf1a2610739f395b662b926ad5286883c76b1418dbaf00102c9289
+SHA1: da91ca9b5897bca3a88da2564ae48fbe043d7a42
+MD5sum: a012b92ee6ab01a6f92da81e059f3880
+Description: Chinese TrueType font, PNG 24x24 pixmaps
+ The CNS 11643 character set (Chinese National Standard 11643),
+ also officially known as the "Chinese Standard Interchange Code",
+ is officially the standard character set of the Republic of China.
+ .
+ TW-Sung is released by RDEC, Executive Yuan, ROC.
+ It covers the characters plane 1 to 9 defined by CNS11643.
+
+Package: fonts-cns11643-sung
+Source: fonts-cns11643
+Version: 103.1+20181001-1
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 129237
+Multi-Arch: foreign
+Homepage: http://www.cns11643.gov.tw
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-cns11643/fonts-cns11643-sung_103.1+20181001-1_all.deb
+Size: 52267300
+SHA256: e8a9410078063f38132b79df00196ca3108bcb90ab6bb0b00afd629eba1044c0
+SHA1: d5293008a88da136cd821ea65b6b7d176a2d73b6
+MD5sum: e3126ad2d90da210f75636f245cd6c18
+Description: Chinese TrueType font, TW-Sung
+ The CNS 11643 character set (Chinese National Standard 11643),
+ also officially known as the "Chinese Standard Interchange Code",
+ is officially the standard character set of the Republic of China.
+ .
+ TW-Sung is released by RDEC, Executive Yuan, ROC.
+ It covers the characters plane 1 to 9 defined by CNS11643.
+
 Package: fonts-comfortaa
 Version: 3.001-3
 Architecture: all
@@ -43385,6 +43691,28 @@ Description: Hack web fonts (transitional package for fonts-hack)
  .
  This package is a dummy transitional package. It can be safely removed.
 
+Package: fonts-hanazono
+Version: 20170904-2.1
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 52284
+Conflicts: ttf-hanazono (<< 20110516-2)
+Replaces: ttf-hanazono (<< 20110516-2)
+Provides: fonts-japanese-mincho
+Multi-Arch: foreign
+Homepage: http://fonts.jp/hanazono/
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-hanazono/fonts-hanazono_20170904-2.1_all.deb
+Size: 22250332
+SHA256: a6943366b4f5a6cec34221f8b4eb22555a628f0ee6ef4e3d3401cabe9363aeae
+SHA1: e15801aecd2c77262efce796de65bd17bffa36e8
+MD5sum: 858ab55d3582a8d77c2261d9ba1ad8f5
+Description: Japanese TrueType mincho font by KAGE system and FontForge
+ This font is Japanese KANJI free font. The KAGE system and FontForge
+ are used for the generation of this font.
+ Collected glyph uses all the data registered in glyphwiki.
+
 Package: fonts-havana
 Version: 1.0-4
 Architecture: all
@@ -43790,6 +44118,34 @@ Description: Japanese OpenType font set, IPA Mincho and IPA P Mincho Fonts
  In the equal-width font, the fullwidth characters (most CJK characters)
  occupy exactly twice as much width of the halfwidth characters (normal
  alphabets and numbers).
+
+Package: fonts-ipamj-mincho
+Version: 005.01-2.1
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 45432
+Multi-Arch: foreign
+Homepage: http://ossipedia.ipa.go.jp/ipamjfont/index.html
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-ipamj-mincho/fonts-ipamj-mincho_005.01-2.1_all.deb
+Size: 25161100
+SHA256: 0dd4990be8d010f13921b1bcac2f9c684e007deae17282cd07dbbfd5b2cd08cb
+SHA1: 08c705f74de711da8de796582af3ab8a2306c967
+MD5sum: 622de11c3b571d6cfd2135e967cc9398
+Description: Japanese OpenType font, IPAmj Mincho Font
+ IPAmj Mincho Font is ISO/IEC10646:2014 compliant OpenType font based on
+ TrueType outlines supporting IVS (Ideographic Variation Sequence)
+ provided by Information-technology Promotion Agency, Japan (IPA) from
+ 2014.
+ .
+ IPAmj Mincho Font is designed to distinguish minute gliph differences of
+ the person's name etc.  This font requires to use applications which are
+ compatible with the UCS code point beyond 16 bits and IVS.  For the normal
+ use, any one of IPAex fonts that conforms to JIS X 0213:2004 is
+ recommended.
+ .
+ There is no IPAmj Gothic Font.
 
 Package: fonts-isabella
 Version: 1.202-4
@@ -44200,6 +44556,31 @@ Description: font family based on Celtic inscriptions
  These are fonts are Unicode typefaces supporting languages in the
  Latin script and its variants.  Both of these fonts are available in
  four weights: Book, Regular, Demi and Bold.
+
+Package: fonts-klee
+Version: 1.000-20210121-2
+Architecture: all
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Installed-Size: 91373
+Multi-Arch: foreign
+Homepage: https://github.com/fontworks-fonts/klee
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-klee/fonts-klee_1.000-20210121-2_all.deb
+Size: 63818724
+SHA256: 5378d3169728ceb95a2ae653a64762cd8f3b82a968a4ae72bb168a034fbf4c54
+SHA1: a4e78ee18d59cccf536df538bb9c7371117e8580
+MD5sum: 4965d140094939101e9af4ee70783b51
+Description: script font handwritten by pencil or pen
+ Klee is a script font handwritten by pencil or pen. It's quiet design has
+ an elegant look that sets itself apart from traditional script and textbook
+ fonts. Ideal for body text.
+ .
+ This package contains two fonts:
+  - Klee One Regular
+  - Klee One SemiBold
+ .
+ For more detail, see https://fontworks.co.jp/fontsearch/KleePro-M/
 
 Package: fonts-knda
 Version: 2:1.3
@@ -45027,6 +45408,33 @@ Description: Lohit TrueType font for Telugu Language
  This package provides Lohit TrueType font for Telugu language which
  is primarily used in Indian state of Andhra Pradesh.
 
+Package: fonts-lxgw-wenkai
+Version: 1.250+repack-1
+Architecture: all
+Maintainer: Debian Fonts Team <debian-fonts@lists.debian.org>
+Installed-Size: 97965
+Multi-Arch: foreign
+Homepage: https://github.com/lxgw/LxgwWenKai
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-lxgw-wenkai/fonts-lxgw-wenkai_1.250+repack-1_all.deb
+Size: 51578272
+SHA256: 6d1e4c4aac78ad32062aefa2c836ee4d6e58f9dcf8b3f4407c9eefe304615318
+SHA1: 5878ac10afd95a0b85088ce8a5b2b159d0fbad75
+MD5sum: 9e6e1c3e23106531a346bca8a2b31522
+Description: Chinese font "LXGW WenKai"(also known as "xia wu wen kai", "xwwk")
+ Lxgw WenKai is an open-source Chinese font derived from Fontworks' Klee One.
+ LXGW is an abbreviation for Chinese word Pinyin "Luo Xia Gu Wu".
+ .
+ Include the following font files:
+ .
+  * LXGWWenKai-Bold.ttf
+  * LXGWWenKai-Light.ttf
+  * LXGWWenKai-Regular.ttf
+  * LXGWWenKaiMono-Bold.ttf
+  * LXGWWenKaiMono-Light.ttf
+  * LXGWWenKaiMono-Regular.ttf
+
 Package: fonts-lxgw-wenkai-doc
 Source: fonts-lxgw-wenkai
 Version: 1.250+repack-1
@@ -45622,6 +46030,34 @@ Description: font with character ranges from Unicode 4.1
  are required to support Kharosthi and other scripts fully. Please read
  the Debian README for a fuller discussion of the problems this may cause.
 
+Package: fonts-mplus
+Version: 063+git20221017+ds-1
+Architecture: all
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Installed-Size: 39341
+Multi-Arch: foreign
+Homepage: https://mplusfonts.github.io/
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-mplus/fonts-mplus_063+git20221017+ds-1_all.deb
+Size: 24668188
+SHA256: d84cf5bc7ba7ff4cc95bc23177eb9354aae8d8965490059ef54b3951ba14f61b
+SHA1: 1b10dbb7313d2a60ea51329b22aa9397edccfa1f
+MD5sum: 6df14efd3440ddf6a7edf31d8465ca43
+Description: M+ sans serif fonts with different weights
+ This is a collection of sans serif fonts with different weights, including
+ Japanese glyphs.
+ .
+ All fonts were completed with Basic Latin, Latin-1 Supplement, and Latin
+ Extended-A. And most of extended glyphs and symbols were prepared too. So the
+ fonts are in conformity with ISO-8859-1, 2, 3, 4, 7, 9, 10, 13, 14, 15, 16,
+ windows-1252, and T1 encoding.
+ .
+ In addition, proportional M+ P Type-1 and M+ P Type-2 fonts were completed
+ with Latin Extended-B, Latin Extended Additional, and ISO-8859-5. And many
+ Greek, Cyrillic, IPA Extensions glyphs, and symbols were expanded. Those
+ additional glyphs are included in M+ C provisionality.
+
 Package: fonts-myanmar
 Version: 0.0-1
 Architecture: all
@@ -45868,6 +46304,32 @@ Description: Nanum Eco Korean font
  glyphs have been designed to be printed with less printer ink. The
  glyphs have many and tiny halls inside their strokes.
 
+Package: fonts-nanum-extra
+Source: fonts-nanum
+Version: 20200506-1
+Architecture: all
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Installed-Size: 83446
+Recommends: fonts-nanum
+Multi-Arch: foreign
+Homepage: https://hangeul.naver.com/2017/nanum
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-nanum/fonts-nanum-extra_20200506-1_all.deb
+Size: 21066444
+SHA256: 05ee7f37582df6a9cec4b259e58d1ca7919bf8c6c3c6502959639a7e51411559
+SHA1: 4122abe2576209676fd794a2456b8f57895e7abf
+MD5sum: b22aa4d4d0290fd3d05a662e10222da2
+Description: Additional Nanum Korean fonts
+ Nanum font families are Korean font families which are intended for
+ use on computer screens. These fonts are good with computer LCD
+ monitors because they have used rich hinting techniques like subpixel
+ rendering.
+ .
+ This package includes additional handwriting font families, "eco" font
+ families with tiny holes inside their strokes, extra-bold and light forms of
+ the commonly-used Korean font families.
+
 Package: fonts-national-park
 Version: 0.0~20220205-2
 Architecture: all
@@ -45954,6 +46416,52 @@ Description: metapackage to pull in all Noto fonts
  Tofu (豆腐) is Japanese jargon
  for unicode replacement character "�" (U+FFFD)
  often displayed as replacement for unassigned or unknown characters.
+
+Package: fonts-noto-cjk
+Version: 1:20220127+repack1-1
+Architecture: all
+Maintainer: Debian Fonts Team <debian-fonts@lists.debian.org>
+Installed-Size: 91003
+Suggests: fonts-noto-cjk-extra
+Multi-Arch: foreign
+Homepage: https://github.com/googlefonts/noto-cjk
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-noto-cjk/fonts-noto-cjk_20220127+repack1-1_all.deb
+Size: 56547048
+SHA256: 4a2515eb6db3978b897fef9709ed0d2b1f4c6c4df4d83d6c4ef65f71f1b1f502
+SHA1: ba94e26dee6ea16abffe012d4751c0b3e6c3fc22
+MD5sum: 90706c62d4714e0cb9486785531c4959
+Description: "No Tofu" font families with large Unicode coverage (CJK regular and bold)
+ Noto is a collection of font families, each visually harmonized across
+ scripts.
+ .
+ This package contains Noto font families for Traditional Chinese,
+ Simplified Chinese, Japanese and Korean:
+ .
+  * Noto Sans CJK JP
+  * Noto Sans CJK KR
+  * Noto Sans CJK SC
+  * Noto Sans CJK TC
+  * Noto Sans Mono CJK JP
+  * Noto Sans Mono CJK KR
+  * Noto Sans Mono CJK SC
+  * Noto Sans Mono CJK TC
+  * Noto Serif CJK JP
+  * Noto Serif CJK KR
+  * Noto Serif CJK SC
+  * Noto Serif CJK TC
+ .
+ These fonts are derived from the font family Source Han Sans.
+ .
+ The name "Noto" is short for "No Tofu", describing the aim of covering
+ all living Unicode scripts.
+ .
+ Tofu (豆腐) is Japanese jargon for unicode replacement character "�"
+ (U+FFFD) often displayed as replacement for unassigned or unknown
+ characters.
+ .
+ This package contains regular and bold fonts.
 
 Package: fonts-noto-color-emoji
 Version: 2.042-0+deb12u1
@@ -46198,6 +46706,1331 @@ Description: "No Tofu" font families with large Unicode coverage (core)
   * Noto Serif Yezidi
   * Noto Traditional Nushu
   * NotoSerifTamilSlanted
+ .
+ The name "Noto" is short for "No Tofu",
+ describing the aim of covering all living Unicode scripts
+ (currently 65 are covered, at least partly.
+ .
+ Tofu (豆腐) is Japanese jargon
+ for unicode replacement character "�" (U+FFFD)
+ often displayed as replacement for unassigned or unknown characters.
+
+Package: fonts-noto-extra
+Source: fonts-noto
+Version: 20201225-1
+Architecture: all
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Installed-Size: 334238
+Enhances: fonts-noto-core, fonts-noto-mono
+Breaks: fonts-noto-unhinted (<< 20201027-1~)
+Replaces: fonts-noto-unhinted (<< 20201027-1~)
+Multi-Arch: foreign
+Homepage: https://www.google.com/get/noto/
+Priority: optional
+Section: fonts
+Filename: pool/main/f/fonts-noto/fonts-noto-extra_20201225-1_all.deb
+Size: 72427756
+SHA256: a44b0c7b9e3c72caf4237ab46846652d6d6eea296abfe675f6f604b6562ffd40
+SHA1: c4ea6d9bf585514f5b1242a1ba16ff3251f68234
+MD5sum: a6b167d4c62455cc893df1e586261a8f
+Description: "No Tofu" font families with large Unicode coverage (extra)
+ Noto is a collection of font families,
+ each visually harmonized across scripts.
+ .
+ This package contains extra weights for these Noto font families:
+ .
+  * Noto Kufi Arabic Black
+  * Noto Kufi Arabic Extra Bold
+  * Noto Kufi Arabic Extra Light
+  * Noto Kufi Arabic Light
+  * Noto Kufi Arabic Medium
+  * Noto Kufi Arabic Semi Bold
+  * Noto Kufi Arabic Thin
+  * Noto Looped Lao Black
+  * Noto Looped Lao Cond Blk
+  * Noto Looped Lao Cond Bold
+  * Noto Looped Lao Cond ExBd
+  * Noto Looped Lao Cond ExLt
+  * Noto Looped Lao Cond Lt
+  * Noto Looped Lao Cond Med
+  * Noto Looped Lao Cond SmBd
+  * Noto Looped Lao Cond Thin
+  * Noto Looped Lao Condensed
+  * Noto Looped Lao ExCd Blk
+  * Noto Looped Lao ExCd Bold
+  * Noto Looped Lao ExCd ExBd
+  * Noto Looped Lao ExCd ExLt
+  * Noto Looped Lao ExCd Lt
+  * Noto Looped Lao ExCd Med
+  * Noto Looped Lao ExCd SmBd
+  * Noto Looped Lao ExCd Thin
+  * Noto Looped Lao ExtLight
+  * Noto Looped Lao ExtraBold
+  * Noto Looped Lao ExtraCond
+  * Noto Looped Lao Light
+  * Noto Looped Lao Medium
+  * Noto Looped Lao SemiBold
+  * Noto Looped Lao SemiCond
+  * Noto Looped Lao SmCd Blk
+  * Noto Looped Lao SmCd Bold
+  * Noto Looped Lao SmCd ExBd
+  * Noto Looped Lao SmCd ExtLt
+  * Noto Looped Lao SmCd Lt
+  * Noto Looped Lao SmCd Med
+  * Noto Looped Lao SmCd SmBd
+  * Noto Looped Lao SmCd Thin
+  * Noto Looped Lao Thin
+  * Noto Looped Thai Black
+  * Noto Looped Thai Cond Blk
+  * Noto Looped Thai Cond Bold
+  * Noto Looped Thai Cond ExBd
+  * Noto Looped Thai Cond ExLt
+  * Noto Looped Thai Cond Lt
+  * Noto Looped Thai Cond Med
+  * Noto Looped Thai Cond SmBd
+  * Noto Looped Thai Cond Thin
+  * Noto Looped Thai Condensed
+  * Noto Looped Thai ExCd Blk
+  * Noto Looped Thai ExCd Bold
+  * Noto Looped Thai ExCd ExBd
+  * Noto Looped Thai ExCd ExLt
+  * Noto Looped Thai ExCd Lt
+  * Noto Looped Thai ExCd Med
+  * Noto Looped Thai ExCd SmBd
+  * Noto Looped Thai ExCd Thin
+  * Noto Looped Thai ExtLight
+  * Noto Looped Thai ExtraBold
+  * Noto Looped Thai ExtraCond
+  * Noto Looped Thai Light
+  * Noto Looped Thai Medium
+  * Noto Looped Thai SemiBold
+  * Noto Looped Thai SemiCond
+  * Noto Looped Thai SmCd Blk
+  * Noto Looped Thai SmCd Bold
+  * Noto Looped Thai SmCd ExBd
+  * Noto Looped Thai SmCd ExLt
+  * Noto Looped Thai SmCd Lt
+  * Noto Looped Thai SmCd Med
+  * Noto Looped Thai SmCd SmBd
+  * Noto Looped Thai SmCd Thin
+  * Noto Looped Thai Thin
+  * Noto Naskh Arabic Medium
+  * Noto Naskh Arabic Semi Bold
+  * Noto Sans Arabic Blk
+  * Noto Sans Arabic Cond
+  * Noto Sans Arabic Cond Blk
+  * Noto Sans Arabic Cond ExtBd
+  * Noto Sans Arabic Cond ExtLt
+  * Noto Sans Arabic Cond Light
+  * Noto Sans Arabic Cond Med
+  * Noto Sans Arabic Cond SemBd
+  * Noto Sans Arabic Cond Thin
+  * Noto Sans Arabic ExtBd
+  * Noto Sans Arabic ExtCond
+  * Noto Sans Arabic ExtCond Blk
+  * Noto Sans Arabic ExtCond ExtBd
+  * Noto Sans Arabic ExtCond ExtLt
+  * Noto Sans Arabic ExtCond Light
+  * Noto Sans Arabic ExtCond Med
+  * Noto Sans Arabic ExtCond SemBd
+  * Noto Sans Arabic ExtCond Thin
+  * Noto Sans Arabic ExtLt
+  * Noto Sans Arabic Light
+  * Noto Sans Arabic Med
+  * Noto Sans Arabic SemBd
+  * Noto Sans Arabic SemCond
+  * Noto Sans Arabic SemCond Blk
+  * Noto Sans Arabic SemCond ExtBd
+  * Noto Sans Arabic SemCond ExtLt
+  * Noto Sans Arabic SemCond Light
+  * Noto Sans Arabic SemCond Med
+  * Noto Sans Arabic SemCond SemBd
+  * Noto Sans Arabic SemCond Thin
+  * Noto Sans Arabic Thin
+  * Noto Sans Armenian Black
+  * Noto Sans Armenian Condensed
+  * Noto Sans Armenian Condensed Black
+  * Noto Sans Armenian Condensed ExtraBold
+  * Noto Sans Armenian Condensed ExtraLight
+  * Noto Sans Armenian Condensed Light
+  * Noto Sans Armenian Condensed Medium
+  * Noto Sans Armenian Condensed SemiBold
+  * Noto Sans Armenian Condensed Thin
+  * Noto Sans Armenian ExtraBold
+  * Noto Sans Armenian ExtraCondensed
+  * Noto Sans Armenian ExtraCondensed Black
+  * Noto Sans Armenian ExtraCondensed ExtraBold
+  * Noto Sans Armenian ExtraCondensed ExtraLight
+  * Noto Sans Armenian ExtraCondensed Light
+  * Noto Sans Armenian ExtraCondensed Medium
+  * Noto Sans Armenian ExtraCondensed SemiBold
+  * Noto Sans Armenian ExtraCondensed Thin
+  * Noto Sans Armenian ExtraLight
+  * Noto Sans Armenian Light
+  * Noto Sans Armenian Medium
+  * Noto Sans Armenian SemiBold
+  * Noto Sans Armenian SemiCondensed
+  * Noto Sans Armenian SemiCondensed Black
+  * Noto Sans Armenian SemiCondensed ExtraBold
+  * Noto Sans Armenian SemiCondensed ExtraLight
+  * Noto Sans Armenian SemiCondensed Light
+  * Noto Sans Armenian SemiCondensed Medium
+  * Noto Sans Armenian SemiCondensed SemiBold
+  * Noto Sans Armenian SemiCondensed Thin
+  * Noto Sans Armenian Thin
+  * Noto Sans Balinese Medium
+  * Noto Sans Balinese SemiBold
+  * Noto Sans Bamum Medium
+  * Noto Sans Bamum SemiBold
+  * Noto Sans Bengali Black
+  * Noto Sans Bengali Condensed
+  * Noto Sans Bengali ExtraBold
+  * Noto Sans Bengali ExtraCondensed
+  * Noto Sans Bengali ExtraLight
+  * Noto Sans Bengali Light
+  * Noto Sans Bengali Medium
+  * Noto Sans Bengali SemiBold
+  * Noto Sans Bengali SemiCondensed
+  * Noto Sans Bengali Thin
+  * Noto Sans Black
+  * Noto Sans CanAborig Bk
+  * Noto Sans CanAborig Lt
+  * Noto Sans CanAborig Md
+  * Noto Sans CanAborig SmBd
+  * Noto Sans CanAborig Th
+  * Noto Sans CanAborig XBd
+  * Noto Sans CanAborig XLt
+  * Noto Sans Cham Blk
+  * Noto Sans Cham ExtBd
+  * Noto Sans Cham ExtLt
+  * Noto Sans Cham Light
+  * Noto Sans Cham Med
+  * Noto Sans Cham SemBd
+  * Noto Sans Cham Thin
+  * Noto Sans Cherokee Blk
+  * Noto Sans Cherokee ExtBd
+  * Noto Sans Cherokee ExtLt
+  * Noto Sans Cherokee Light
+  * Noto Sans Cherokee Med
+  * Noto Sans Cherokee SemBd
+  * Noto Sans Cherokee Thin
+  * Noto Sans Condensed
+  * Noto Sans Condensed Black
+  * Noto Sans Condensed ExtraBold
+  * Noto Sans Condensed ExtraLight
+  * Noto Sans Condensed Light
+  * Noto Sans Condensed Medium
+  * Noto Sans Condensed SemiBold
+  * Noto Sans Condensed Thin
+  * Noto Sans Devanagari Black
+  * Noto Sans Devanagari Condensed
+  * Noto Sans Devanagari Condensed Black
+  * Noto Sans Devanagari Condensed ExtraBold
+  * Noto Sans Devanagari Condensed ExtraLight
+  * Noto Sans Devanagari Condensed Light
+  * Noto Sans Devanagari Condensed Medium
+  * Noto Sans Devanagari Condensed SemiBold
+  * Noto Sans Devanagari Condensed Thin
+  * Noto Sans Devanagari ExtraBold
+  * Noto Sans Devanagari ExtraCondensed
+  * Noto Sans Devanagari ExtraCondensed Black
+  * Noto Sans Devanagari ExtraCondensed ExtraBold
+  * Noto Sans Devanagari ExtraCondensed ExtraLight
+  * Noto Sans Devanagari ExtraCondensed Light
+  * Noto Sans Devanagari ExtraCondensed Medium
+  * Noto Sans Devanagari ExtraCondensed SemiBold
+  * Noto Sans Devanagari ExtraCondensed Thin
+  * Noto Sans Devanagari ExtraLight
+  * Noto Sans Devanagari Light
+  * Noto Sans Devanagari Medium
+  * Noto Sans Devanagari SemiBold
+  * Noto Sans Devanagari SemiCondensed
+  * Noto Sans Devanagari SemiCondensed Black
+  * Noto Sans Devanagari SemiCondensed ExtraBold
+  * Noto Sans Devanagari SemiCondensed ExtraLight
+  * Noto Sans Devanagari SemiCondensed Light
+  * Noto Sans Devanagari SemiCondensed Medium
+  * Noto Sans Devanagari SemiCondensed SemiBold
+  * Noto Sans Devanagari SemiCondensed Thin
+  * Noto Sans Devanagari Thin
+  * Noto Sans Display Black
+  * Noto Sans Display Condensed
+  * Noto Sans Display Condensed Black
+  * Noto Sans Display Condensed ExtraBold
+  * Noto Sans Display Condensed ExtraLight
+  * Noto Sans Display Condensed Light
+  * Noto Sans Display Condensed Medium
+  * Noto Sans Display Condensed SemiBold
+  * Noto Sans Display Condensed Thin
+  * Noto Sans Display ExtraBold
+  * Noto Sans Display ExtraCondensed
+  * Noto Sans Display ExtraCondensed Black
+  * Noto Sans Display ExtraCondensed ExtraBold
+  * Noto Sans Display ExtraCondensed ExtraLight
+  * Noto Sans Display ExtraCondensed Light
+  * Noto Sans Display ExtraCondensed Medium
+  * Noto Sans Display ExtraCondensed SemiBold
+  * Noto Sans Display ExtraCondensed Thin
+  * Noto Sans Display ExtraLight
+  * Noto Sans Display Light
+  * Noto Sans Display Medium
+  * Noto Sans Display SemiBold
+  * Noto Sans Display SemiCondensed
+  * Noto Sans Display SemiCondensed Black
+  * Noto Sans Display SemiCondensed ExtraBold
+  * Noto Sans Display SemiCondensed ExtraLight
+  * Noto Sans Display SemiCondensed Light
+  * Noto Sans Display SemiCondensed Medium
+  * Noto Sans Display SemiCondensed SemiBold
+  * Noto Sans Display SemiCondensed Thin
+  * Noto Sans Display Thin
+  * Noto Sans Ethiopic Blk
+  * Noto Sans Ethiopic Cond
+  * Noto Sans Ethiopic Cond Blk
+  * Noto Sans Ethiopic Cond ExtBd
+  * Noto Sans Ethiopic Cond ExtLt
+  * Noto Sans Ethiopic Cond Light
+  * Noto Sans Ethiopic Cond Med
+  * Noto Sans Ethiopic Cond SemBd
+  * Noto Sans Ethiopic Cond Thin
+  * Noto Sans Ethiopic ExtBd
+  * Noto Sans Ethiopic ExtCond
+  * Noto Sans Ethiopic ExtCond Blk
+  * Noto Sans Ethiopic ExtCond ExtBd
+  * Noto Sans Ethiopic ExtCond ExtLt
+  * Noto Sans Ethiopic ExtCond Light
+  * Noto Sans Ethiopic ExtCond Med
+  * Noto Sans Ethiopic ExtCond SemBd
+  * Noto Sans Ethiopic ExtCond Thin
+  * Noto Sans Ethiopic ExtLt
+  * Noto Sans Ethiopic Light
+  * Noto Sans Ethiopic Med
+  * Noto Sans Ethiopic SemBd
+  * Noto Sans Ethiopic SemCond
+  * Noto Sans Ethiopic SemCond Blk
+  * Noto Sans Ethiopic SemCond ExtBd
+  * Noto Sans Ethiopic SemCond ExtLt
+  * Noto Sans Ethiopic SemCond Light
+  * Noto Sans Ethiopic SemCond Med
+  * Noto Sans Ethiopic SemCond SemBd
+  * Noto Sans Ethiopic SemCond Thin
+  * Noto Sans Ethiopic Thin
+  * Noto Sans ExtraBold
+  * Noto Sans ExtraCondensed
+  * Noto Sans ExtraCondensed Black
+  * Noto Sans ExtraCondensed ExtraBold
+  * Noto Sans ExtraCondensed ExtraLight
+  * Noto Sans ExtraCondensed Light
+  * Noto Sans ExtraCondensed Medium
+  * Noto Sans ExtraCondensed SemiBold
+  * Noto Sans ExtraCondensed Thin
+  * Noto Sans ExtraLight
+  * Noto Sans Georgian Blk
+  * Noto Sans Georgian Cond
+  * Noto Sans Georgian Cond Blk
+  * Noto Sans Georgian Cond ExtBd
+  * Noto Sans Georgian Cond ExtLt
+  * Noto Sans Georgian Cond Light
+  * Noto Sans Georgian Cond Med
+  * Noto Sans Georgian Cond SemBd
+  * Noto Sans Georgian Cond Thin
+  * Noto Sans Georgian ExtBd
+  * Noto Sans Georgian ExtCond
+  * Noto Sans Georgian ExtCond Blk
+  * Noto Sans Georgian ExtCond ExtBd
+  * Noto Sans Georgian ExtCond ExtLt
+  * Noto Sans Georgian ExtCond Light
+  * Noto Sans Georgian ExtCond Med
+  * Noto Sans Georgian ExtCond SemBd
+  * Noto Sans Georgian ExtCond Thin
+  * Noto Sans Georgian ExtLt
+  * Noto Sans Georgian Light
+  * Noto Sans Georgian Med
+  * Noto Sans Georgian SemBd
+  * Noto Sans Georgian SemCond
+  * Noto Sans Georgian SemCond Blk
+  * Noto Sans Georgian SemCond ExtBd
+  * Noto Sans Georgian SemCond ExtLt
+  * Noto Sans Georgian SemCond Light
+  * Noto Sans Georgian SemCond Med
+  * Noto Sans Georgian SemCond SemBd
+  * Noto Sans Georgian SemCond Thin
+  * Noto Sans Georgian Thin
+  * Noto Sans Gujarati Black
+  * Noto Sans Gujarati Condensed
+  * Noto Sans Gujarati Condensed Black
+  * Noto Sans Gujarati Condensed ExtraBold
+  * Noto Sans Gujarati Condensed ExtraLight
+  * Noto Sans Gujarati Condensed Light
+  * Noto Sans Gujarati Condensed Medium
+  * Noto Sans Gujarati Condensed SemiBold
+  * Noto Sans Gujarati Condensed Thin
+  * Noto Sans Gujarati ExtraBold
+  * Noto Sans Gujarati ExtraCondensed
+  * Noto Sans Gujarati ExtraCondensed Black
+  * Noto Sans Gujarati ExtraCondensed ExtraBold
+  * Noto Sans Gujarati ExtraCondensed ExtraLight
+  * Noto Sans Gujarati ExtraCondensed Light
+  * Noto Sans Gujarati ExtraCondensed Medium
+  * Noto Sans Gujarati ExtraCondensed SemiBold
+  * Noto Sans Gujarati ExtraCondensed Thin
+  * Noto Sans Gujarati ExtraLight
+  * Noto Sans Gujarati Light
+  * Noto Sans Gujarati Medium
+  * Noto Sans Gujarati SemiBold
+  * Noto Sans Gujarati SemiCondensed
+  * Noto Sans Gujarati SemiCondensed Black
+  * Noto Sans Gujarati SemiCondensed ExtraBold
+  * Noto Sans Gujarati SemiCondensed ExtraLight
+  * Noto Sans Gujarati SemiCondensed Light
+  * Noto Sans Gujarati SemiCondensed Medium
+  * Noto Sans Gujarati SemiCondensed SemiBold
+  * Noto Sans Gujarati SemiCondensed Thin
+  * Noto Sans Gujarati Thin
+  * Noto Sans Gurmukhi Black
+  * Noto Sans Gurmukhi Condensed
+  * Noto Sans Gurmukhi Condensed Black
+  * Noto Sans Gurmukhi Condensed ExtraBold
+  * Noto Sans Gurmukhi Condensed ExtraLight
+  * Noto Sans Gurmukhi Condensed Light
+  * Noto Sans Gurmukhi Condensed Medium
+  * Noto Sans Gurmukhi Condensed SemiBold
+  * Noto Sans Gurmukhi Condensed Thin
+  * Noto Sans Gurmukhi ExtraBold
+  * Noto Sans Gurmukhi ExtraCondensed
+  * Noto Sans Gurmukhi ExtraCondensed Black
+  * Noto Sans Gurmukhi ExtraCondensed ExtraBold
+  * Noto Sans Gurmukhi ExtraCondensed ExtraLight
+  * Noto Sans Gurmukhi ExtraCondensed Light
+  * Noto Sans Gurmukhi ExtraCondensed Medium
+  * Noto Sans Gurmukhi ExtraCondensed SemiBold
+  * Noto Sans Gurmukhi ExtraCondensed Thin
+  * Noto Sans Gurmukhi ExtraLight
+  * Noto Sans Gurmukhi Light
+  * Noto Sans Gurmukhi Medium
+  * Noto Sans Gurmukhi SemiBold
+  * Noto Sans Gurmukhi SemiCondensed
+  * Noto Sans Gurmukhi SemiCondensed Black
+  * Noto Sans Gurmukhi SemiCondensed ExtraBold
+  * Noto Sans Gurmukhi SemiCondensed ExtraLight
+  * Noto Sans Gurmukhi SemiCondensed Light
+  * Noto Sans Gurmukhi SemiCondensed Medium
+  * Noto Sans Gurmukhi SemiCondensed SemiBold
+  * Noto Sans Gurmukhi SemiCondensed Thin
+  * Noto Sans Gurmukhi Thin
+  * Noto Sans Hanifi Rohingya Medium
+  * Noto Sans Hanifi Rohingya SemiBold
+  * Noto Sans Hebrew Blk
+  * Noto Sans Hebrew Cond
+  * Noto Sans Hebrew Cond Blk
+  * Noto Sans Hebrew Cond ExtBd
+  * Noto Sans Hebrew Cond ExtLt
+  * Noto Sans Hebrew Cond Light
+  * Noto Sans Hebrew Cond Med
+  * Noto Sans Hebrew Cond SemBd
+  * Noto Sans Hebrew Cond Thin
+  * Noto Sans Hebrew ExtBd
+  * Noto Sans Hebrew ExtCond
+  * Noto Sans Hebrew ExtCond Blk
+  * Noto Sans Hebrew ExtCond ExtBd
+  * Noto Sans Hebrew ExtCond ExtLt
+  * Noto Sans Hebrew ExtCond Light
+  * Noto Sans Hebrew ExtCond Med
+  * Noto Sans Hebrew ExtCond SemBd
+  * Noto Sans Hebrew ExtCond Thin
+  * Noto Sans Hebrew ExtLt
+  * Noto Sans Hebrew Light
+  * Noto Sans Hebrew Med
+  * Noto Sans Hebrew SemBd
+  * Noto Sans Hebrew SemCond
+  * Noto Sans Hebrew SemCond Blk
+  * Noto Sans Hebrew SemCond ExtBd
+  * Noto Sans Hebrew SemCond ExtLt
+  * Noto Sans Hebrew SemCond Light
+  * Noto Sans Hebrew SemCond Med
+  * Noto Sans Hebrew SemCond SemBd
+  * Noto Sans Hebrew SemCond Thin
+  * Noto Sans Hebrew Thin
+  * Noto Sans Kannada Black
+  * Noto Sans Kannada Condensed
+  * Noto Sans Kannada Condensed Black
+  * Noto Sans Kannada Condensed ExtraBold
+  * Noto Sans Kannada Condensed ExtraLight
+  * Noto Sans Kannada Condensed Light
+  * Noto Sans Kannada Condensed Medium
+  * Noto Sans Kannada Condensed SemiBold
+  * Noto Sans Kannada Condensed Thin
+  * Noto Sans Kannada ExtraBold
+  * Noto Sans Kannada ExtraCondensed
+  * Noto Sans Kannada ExtraCondensed Black
+  * Noto Sans Kannada ExtraCondensed ExtraBold
+  * Noto Sans Kannada ExtraCondensed ExtraLight
+  * Noto Sans Kannada ExtraCondensed Light
+  * Noto Sans Kannada ExtraCondensed Medium
+  * Noto Sans Kannada ExtraCondensed SemiBold
+  * Noto Sans Kannada ExtraCondensed Thin
+  * Noto Sans Kannada ExtraLight
+  * Noto Sans Kannada Light
+  * Noto Sans Kannada Medium
+  * Noto Sans Kannada SemiBold
+  * Noto Sans Kannada SemiCondensed
+  * Noto Sans Kannada SemiCondensed Black
+  * Noto Sans Kannada SemiCondensed ExtraBold
+  * Noto Sans Kannada SemiCondensed ExtraLight
+  * Noto Sans Kannada SemiCondensed Light
+  * Noto Sans Kannada SemiCondensed Medium
+  * Noto Sans Kannada SemiCondensed SemiBold
+  * Noto Sans Kannada SemiCondensed Thin
+  * Noto Sans Kannada Thin
+  * Noto Sans Kayah Li Medium
+  * Noto Sans Kayah Li SemiBold
+  * Noto Sans Khmer Black
+  * Noto Sans Khmer Condensed
+  * Noto Sans Khmer Condensed Black
+  * Noto Sans Khmer Condensed ExtraBold
+  * Noto Sans Khmer Condensed ExtraLight
+  * Noto Sans Khmer Condensed Light
+  * Noto Sans Khmer Condensed Medium
+  * Noto Sans Khmer Condensed SemiBold
+  * Noto Sans Khmer Condensed Thin
+  * Noto Sans Khmer ExtraBold
+  * Noto Sans Khmer ExtraCondensed
+  * Noto Sans Khmer ExtraCondensed Black
+  * Noto Sans Khmer ExtraCondensed ExtraBold
+  * Noto Sans Khmer ExtraCondensed ExtraLight
+  * Noto Sans Khmer ExtraCondensed Light
+  * Noto Sans Khmer ExtraCondensed Medium
+  * Noto Sans Khmer ExtraCondensed SemiBold
+  * Noto Sans Khmer ExtraCondensed Thin
+  * Noto Sans Khmer ExtraLight
+  * Noto Sans Khmer Light
+  * Noto Sans Khmer Medium
+  * Noto Sans Khmer SemiBold
+  * Noto Sans Khmer SemiCondensed
+  * Noto Sans Khmer SemiCondensed Black
+  * Noto Sans Khmer SemiCondensed ExtraBold
+  * Noto Sans Khmer SemiCondensed ExtraLight
+  * Noto Sans Khmer SemiCondensed Light
+  * Noto Sans Khmer SemiCondensed Medium
+  * Noto Sans Khmer SemiCondensed SemiBold
+  * Noto Sans Khmer SemiCondensed Thin
+  * Noto Sans Khmer Thin
+  * Noto Sans Lao Blk
+  * Noto Sans Lao Cond
+  * Noto Sans Lao Cond Blk
+  * Noto Sans Lao Cond ExtBd
+  * Noto Sans Lao Cond ExtLt
+  * Noto Sans Lao Cond Light
+  * Noto Sans Lao Cond Med
+  * Noto Sans Lao Cond SemBd
+  * Noto Sans Lao Cond Thin
+  * Noto Sans Lao ExtBd
+  * Noto Sans Lao ExtCond
+  * Noto Sans Lao ExtCond Blk
+  * Noto Sans Lao ExtCond ExtBd
+  * Noto Sans Lao ExtCond ExtLt
+  * Noto Sans Lao ExtCond Light
+  * Noto Sans Lao ExtCond Med
+  * Noto Sans Lao ExtCond SemBd
+  * Noto Sans Lao ExtCond Thin
+  * Noto Sans Lao ExtLt
+  * Noto Sans Lao Light
+  * Noto Sans Lao Med
+  * Noto Sans Lao SemBd
+  * Noto Sans Lao SemCond
+  * Noto Sans Lao SemCond Blk
+  * Noto Sans Lao SemCond ExtBd
+  * Noto Sans Lao SemCond ExtLt
+  * Noto Sans Lao SemCond Light
+  * Noto Sans Lao SemCond Med
+  * Noto Sans Lao SemCond SemBd
+  * Noto Sans Lao SemCond Thin
+  * Noto Sans Lao Thin
+  * Noto Sans Light
+  * Noto Sans Lisu Medium
+  * Noto Sans Lisu Semi Bold
+  * Noto Sans Malayalam Black
+  * Noto Sans Malayalam Condensed
+  * Noto Sans Malayalam Condensed Black
+  * Noto Sans Malayalam Condensed ExtraBold
+  * Noto Sans Malayalam Condensed ExtraLight
+  * Noto Sans Malayalam Condensed Light
+  * Noto Sans Malayalam Condensed Medium
+  * Noto Sans Malayalam Condensed SemiBold
+  * Noto Sans Malayalam Condensed Thin
+  * Noto Sans Malayalam ExtraBold
+  * Noto Sans Malayalam ExtraCondensed
+  * Noto Sans Malayalam ExtraCondensed Black
+  * Noto Sans Malayalam ExtraCondensed ExtraBold
+  * Noto Sans Malayalam ExtraCondensed ExtraLight
+  * Noto Sans Malayalam ExtraCondensed Light
+  * Noto Sans Malayalam ExtraCondensed Medium
+  * Noto Sans Malayalam ExtraCondensed SemiBold
+  * Noto Sans Malayalam ExtraCondensed Thin
+  * Noto Sans Malayalam ExtraLight
+  * Noto Sans Malayalam Light
+  * Noto Sans Malayalam Medium
+  * Noto Sans Malayalam SemiBold
+  * Noto Sans Malayalam SemiCondensed
+  * Noto Sans Malayalam SemiCondensed Black
+  * Noto Sans Malayalam SemiCondensed ExtraBold
+  * Noto Sans Malayalam SemiCondensed ExtraLight
+  * Noto Sans Malayalam SemiCondensed Light
+  * Noto Sans Malayalam SemiCondensed Medium
+  * Noto Sans Malayalam SemiCondensed SemiBold
+  * Noto Sans Malayalam SemiCondensed Thin
+  * Noto Sans Malayalam Thin
+  * Noto Sans Medefaidrin Medium
+  * Noto Sans Medefaidrin SemiBold
+  * Noto Sans Medium
+  * Noto Sans MeeteiMayek Black
+  * Noto Sans MeeteiMayek ExtraBold
+  * Noto Sans MeeteiMayek ExtraLight
+  * Noto Sans MeeteiMayek Light
+  * Noto Sans MeeteiMayek Medium
+  * Noto Sans MeeteiMayek SemiBold
+  * Noto Sans MeeteiMayek Thin
+  * Noto Sans Mono Black
+  * Noto Sans Mono Condensed
+  * Noto Sans Mono Condensed Black
+  * Noto Sans Mono Condensed ExtraBold
+  * Noto Sans Mono Condensed ExtraLight
+  * Noto Sans Mono Condensed Light
+  * Noto Sans Mono Condensed Medium
+  * Noto Sans Mono Condensed SemiBold
+  * Noto Sans Mono Condensed Thin
+  * Noto Sans Mono ExtraBold
+  * Noto Sans Mono ExtraCondensed
+  * Noto Sans Mono ExtraCondensed Black
+  * Noto Sans Mono ExtraCondensed ExtraBold
+  * Noto Sans Mono ExtraCondensed ExtraLight
+  * Noto Sans Mono ExtraCondensed Light
+  * Noto Sans Mono ExtraCondensed Medium
+  * Noto Sans Mono ExtraCondensed SemiBold
+  * Noto Sans Mono ExtraCondensed Thin
+  * Noto Sans Mono ExtraLight
+  * Noto Sans Mono Light
+  * Noto Sans Mono Medium
+  * Noto Sans Mono SemiBold
+  * Noto Sans Mono SemiCondensed
+  * Noto Sans Mono SemiCondensed Black
+  * Noto Sans Mono SemiCondensed ExtraBold
+  * Noto Sans Mono SemiCondensed ExtraLight
+  * Noto Sans Mono SemiCondensed Light
+  * Noto Sans Mono SemiCondensed Medium
+  * Noto Sans Mono SemiCondensed SemiBold
+  * Noto Sans Mono SemiCondensed Thin
+  * Noto Sans Mono Thin
+  * Noto Sans Myanmar Blk
+  * Noto Sans Myanmar Cond
+  * Noto Sans Myanmar Cond Blk
+  * Noto Sans Myanmar Cond ExtBd
+  * Noto Sans Myanmar Cond ExtLt
+  * Noto Sans Myanmar Cond Light
+  * Noto Sans Myanmar Cond Med
+  * Noto Sans Myanmar Cond SemBd
+  * Noto Sans Myanmar Cond Thin
+  * Noto Sans Myanmar ExtBd
+  * Noto Sans Myanmar ExtCond
+  * Noto Sans Myanmar ExtCond Blk
+  * Noto Sans Myanmar ExtCond ExtBd
+  * Noto Sans Myanmar ExtCond ExtLt
+  * Noto Sans Myanmar ExtCond Light
+  * Noto Sans Myanmar ExtCond Med
+  * Noto Sans Myanmar ExtCond SemBd
+  * Noto Sans Myanmar ExtCond Thin
+  * Noto Sans Myanmar ExtLt
+  * Noto Sans Myanmar Light
+  * Noto Sans Myanmar Med
+  * Noto Sans Myanmar SemBd
+  * Noto Sans Myanmar SemCond
+  * Noto Sans Myanmar SemCond Blk
+  * Noto Sans Myanmar SemCond ExtBd
+  * Noto Sans Myanmar SemCond ExtLt
+  * Noto Sans Myanmar SemCond Light
+  * Noto Sans Myanmar SemCond Med
+  * Noto Sans Myanmar SemCond SemBd
+  * Noto Sans Myanmar SemCond Thin
+  * Noto Sans Myanmar Thin
+  * Noto Sans Ol Chiki Medium
+  * Noto Sans Ol Chiki SemiBold
+  * Noto Sans Oriya Blk
+  * Noto Sans Oriya Cond
+  * Noto Sans Oriya Cond Blk
+  * Noto Sans Oriya Cond Bold
+  * Noto Sans Oriya Cond Thin
+  * Noto Sans Oriya ExtCond
+  * Noto Sans Oriya ExtCond Blk
+  * Noto Sans Oriya ExtCond Bold
+  * Noto Sans Oriya ExtCond Thin
+  * Noto Sans Oriya Thin
+  * Noto Sans SemiBold
+  * Noto Sans SemiCondensed
+  * Noto Sans SemiCondensed Black
+  * Noto Sans SemiCondensed ExtraBold
+  * Noto Sans SemiCondensed ExtraLight
+  * Noto Sans SemiCondensed Light
+  * Noto Sans SemiCondensed Medium
+  * Noto Sans SemiCondensed SemiBold
+  * Noto Sans SemiCondensed Thin
+  * Noto Sans Sinhala Black
+  * Noto Sans Sinhala Condensed
+  * Noto Sans Sinhala Condensed Black
+  * Noto Sans Sinhala Condensed ExtraBold
+  * Noto Sans Sinhala Condensed ExtraLight
+  * Noto Sans Sinhala Condensed Light
+  * Noto Sans Sinhala Condensed Medium
+  * Noto Sans Sinhala Condensed SemiBold
+  * Noto Sans Sinhala Condensed Thin
+  * Noto Sans Sinhala ExtraBold
+  * Noto Sans Sinhala ExtraCondensed
+  * Noto Sans Sinhala ExtraCondensed Black
+  * Noto Sans Sinhala ExtraCondensed ExtraBold
+  * Noto Sans Sinhala ExtraCondensed ExtraLight
+  * Noto Sans Sinhala ExtraCondensed Light
+  * Noto Sans Sinhala ExtraCondensed Medium
+  * Noto Sans Sinhala ExtraCondensed SemiBold
+  * Noto Sans Sinhala ExtraCondensed Thin
+  * Noto Sans Sinhala ExtraLight
+  * Noto Sans Sinhala Light
+  * Noto Sans Sinhala Medium
+  * Noto Sans Sinhala SemiBold
+  * Noto Sans Sinhala SemiCondensed
+  * Noto Sans Sinhala SemiCondensed Black
+  * Noto Sans Sinhala SemiCondensed ExtraBold
+  * Noto Sans Sinhala SemiCondensed ExtraLight
+  * Noto Sans Sinhala SemiCondensed Light
+  * Noto Sans Sinhala SemiCondensed Medium
+  * Noto Sans Sinhala SemiCondensed SemiBold
+  * Noto Sans Sinhala SemiCondensed Thin
+  * Noto Sans Sinhala Thin
+  * Noto Sans Sora Sompeng Medium
+  * Noto Sans Sora Sompeng Semi Bold
+  * Noto Sans Sundanese
+  * Noto Sans Symbols Black
+  * Noto Sans Symbols ExtraBold
+  * Noto Sans Symbols ExtraLight
+  * Noto Sans Symbols Light
+  * Noto Sans Symbols Medium
+  * Noto Sans Symbols SemiBold
+  * Noto Sans Symbols Thin
+  * Noto Sans Syriac Black
+  * Noto Sans Syriac Thin
+  * Noto Sans Tai Tham Medium
+  * Noto Sans Tai Tham SemiBold
+  * Noto Sans Tamil Black
+  * Noto Sans Tamil Condensed
+  * Noto Sans Tamil Condensed Black
+  * Noto Sans Tamil Condensed ExtraBold
+  * Noto Sans Tamil Condensed ExtraLight
+  * Noto Sans Tamil Condensed Light
+  * Noto Sans Tamil Condensed Medium
+  * Noto Sans Tamil Condensed SemiBold
+  * Noto Sans Tamil Condensed Thin
+  * Noto Sans Tamil ExtraBold
+  * Noto Sans Tamil ExtraCondensed
+  * Noto Sans Tamil ExtraCondensed Black
+  * Noto Sans Tamil ExtraCondensed ExtraBold
+  * Noto Sans Tamil ExtraCondensed ExtraLight
+  * Noto Sans Tamil ExtraCondensed Light
+  * Noto Sans Tamil ExtraCondensed Medium
+  * Noto Sans Tamil ExtraCondensed SemiBold
+  * Noto Sans Tamil ExtraCondensed Thin
+  * Noto Sans Tamil ExtraLight
+  * Noto Sans Tamil Light
+  * Noto Sans Tamil Medium
+  * Noto Sans Tamil SemiBold
+  * Noto Sans Tamil SemiCondensed
+  * Noto Sans Tamil SemiCondensed Black
+  * Noto Sans Tamil SemiCondensed ExtraBold
+  * Noto Sans Tamil SemiCondensed ExtraLight
+  * Noto Sans Tamil SemiCondensed Light
+  * Noto Sans Tamil SemiCondensed Medium
+  * Noto Sans Tamil SemiCondensed SemiBold
+  * Noto Sans Tamil SemiCondensed Thin
+  * Noto Sans Tamil Thin
+  * Noto Sans Telugu Black
+  * Noto Sans Telugu Condensed
+  * Noto Sans Telugu Condensed Black
+  * Noto Sans Telugu Condensed ExtraBold
+  * Noto Sans Telugu Condensed ExtraLight
+  * Noto Sans Telugu Condensed Light
+  * Noto Sans Telugu Condensed Medium
+  * Noto Sans Telugu Condensed SemiBold
+  * Noto Sans Telugu Condensed Thin
+  * Noto Sans Telugu ExtraBold
+  * Noto Sans Telugu ExtraCondensed
+  * Noto Sans Telugu ExtraCondensed Black
+  * Noto Sans Telugu ExtraCondensed ExtraBold
+  * Noto Sans Telugu ExtraCondensed ExtraLight
+  * Noto Sans Telugu ExtraCondensed Light
+  * Noto Sans Telugu ExtraCondensed Medium
+  * Noto Sans Telugu ExtraCondensed SemiBold
+  * Noto Sans Telugu ExtraCondensed Thin
+  * Noto Sans Telugu ExtraLight
+  * Noto Sans Telugu Light
+  * Noto Sans Telugu Medium
+  * Noto Sans Telugu SemiBold
+  * Noto Sans Telugu SemiCondensed
+  * Noto Sans Telugu SemiCondensed Black
+  * Noto Sans Telugu SemiCondensed ExtraBold
+  * Noto Sans Telugu SemiCondensed ExtraLight
+  * Noto Sans Telugu SemiCondensed Light
+  * Noto Sans Telugu SemiCondensed Medium
+  * Noto Sans Telugu SemiCondensed SemiBold
+  * Noto Sans Telugu SemiCondensed Thin
+  * Noto Sans Telugu Thin
+  * Noto Sans Thaana Black
+  * Noto Sans Thaana ExtraBold
+  * Noto Sans Thaana ExtraLight
+  * Noto Sans Thaana Light
+  * Noto Sans Thaana Medium
+  * Noto Sans Thaana SemiBold
+  * Noto Sans Thaana Thin
+  * Noto Sans Thai Blk
+  * Noto Sans Thai Cond
+  * Noto Sans Thai Cond Blk
+  * Noto Sans Thai Cond ExtBd
+  * Noto Sans Thai Cond ExtLt
+  * Noto Sans Thai Cond Light
+  * Noto Sans Thai Cond Med
+  * Noto Sans Thai Cond SemBd
+  * Noto Sans Thai Cond Thin
+  * Noto Sans Thai ExtBd
+  * Noto Sans Thai ExtCond
+  * Noto Sans Thai ExtCond Blk
+  * Noto Sans Thai ExtCond ExtBd
+  * Noto Sans Thai ExtCond ExtLt
+  * Noto Sans Thai ExtCond Light
+  * Noto Sans Thai ExtCond Med
+  * Noto Sans Thai ExtCond SemBd
+  * Noto Sans Thai ExtCond Thin
+  * Noto Sans Thai ExtLt
+  * Noto Sans Thai Light
+  * Noto Sans Thai Med
+  * Noto Sans Thai SemBd
+  * Noto Sans Thai SemCond
+  * Noto Sans Thai SemCond Blk
+  * Noto Sans Thai SemCond ExtBd
+  * Noto Sans Thai SemCond ExtLt
+  * Noto Sans Thai SemCond Light
+  * Noto Sans Thai SemCond Med
+  * Noto Sans Thai SemCond SemBd
+  * Noto Sans Thai SemCond Thin
+  * Noto Sans Thai Thin
+  * Noto Sans Thin
+  * Noto Serif Armenian Black
+  * Noto Serif Armenian Condensed
+  * Noto Serif Armenian Condensed Black
+  * Noto Serif Armenian Condensed ExtraBold
+  * Noto Serif Armenian Condensed ExtraLight
+  * Noto Serif Armenian Condensed Light
+  * Noto Serif Armenian Condensed Medium
+  * Noto Serif Armenian Condensed SemiBold
+  * Noto Serif Armenian Condensed Thin
+  * Noto Serif Armenian ExtraBold
+  * Noto Serif Armenian ExtraCondensed
+  * Noto Serif Armenian ExtraCondensed Black
+  * Noto Serif Armenian ExtraCondensed ExtraBold
+  * Noto Serif Armenian ExtraCondensed ExtraLight
+  * Noto Serif Armenian ExtraCondensed Light
+  * Noto Serif Armenian ExtraCondensed Medium
+  * Noto Serif Armenian ExtraCondensed SemiBold
+  * Noto Serif Armenian ExtraCondensed Thin
+  * Noto Serif Armenian ExtraLight
+  * Noto Serif Armenian Light
+  * Noto Serif Armenian Medium
+  * Noto Serif Armenian SemiBold
+  * Noto Serif Armenian SemiCondensed
+  * Noto Serif Armenian SemiCondensed Black
+  * Noto Serif Armenian SemiCondensed ExtraBold
+  * Noto Serif Armenian SemiCondensed ExtraLight
+  * Noto Serif Armenian SemiCondensed Light
+  * Noto Serif Armenian SemiCondensed Medium
+  * Noto Serif Armenian SemiCondensed SemiBold
+  * Noto Serif Armenian SemiCondensed Thin
+  * Noto Serif Armenian Thin
+  * Noto Serif Bengali Black
+  * Noto Serif Bengali Condensed
+  * Noto Serif Bengali Condensed Black
+  * Noto Serif Bengali Condensed ExtraBold
+  * Noto Serif Bengali Condensed ExtraLight
+  * Noto Serif Bengali Condensed Light
+  * Noto Serif Bengali Condensed Medium
+  * Noto Serif Bengali Condensed SemiBold
+  * Noto Serif Bengali Condensed Thin
+  * Noto Serif Bengali ExtraBold
+  * Noto Serif Bengali ExtraCondensed
+  * Noto Serif Bengali ExtraCondensed Black
+  * Noto Serif Bengali ExtraCondensed ExtraBold
+  * Noto Serif Bengali ExtraCondensed ExtraLight
+  * Noto Serif Bengali ExtraCondensed Light
+  * Noto Serif Bengali ExtraCondensed Medium
+  * Noto Serif Bengali ExtraCondensed SemiBold
+  * Noto Serif Bengali ExtraCondensed Thin
+  * Noto Serif Bengali ExtraLight
+  * Noto Serif Bengali Light
+  * Noto Serif Bengali Medium
+  * Noto Serif Bengali SemiBold
+  * Noto Serif Bengali SemiCondensed
+  * Noto Serif Bengali SemiCondensed Black
+  * Noto Serif Bengali SemiCondensed ExtraBold
+  * Noto Serif Bengali SemiCondensed ExtraLight
+  * Noto Serif Bengali SemiCondensed Light
+  * Noto Serif Bengali SemiCondensed Medium
+  * Noto Serif Bengali SemiCondensed SemiBold
+  * Noto Serif Bengali SemiCondensed Thin
+  * Noto Serif Bengali Thin
+  * Noto Serif Black
+  * Noto Serif Condensed
+  * Noto Serif Condensed Black
+  * Noto Serif Condensed ExtraBold
+  * Noto Serif Condensed ExtraLight
+  * Noto Serif Condensed Light
+  * Noto Serif Condensed Medium
+  * Noto Serif Condensed SemiBold
+  * Noto Serif Condensed Thin
+  * Noto Serif Devanagari Black
+  * Noto Serif Devanagari Condensed
+  * Noto Serif Devanagari Condensed Black
+  * Noto Serif Devanagari Condensed ExtraBold
+  * Noto Serif Devanagari Condensed ExtraLight
+  * Noto Serif Devanagari Condensed Light
+  * Noto Serif Devanagari Condensed Medium
+  * Noto Serif Devanagari Condensed SemiBold
+  * Noto Serif Devanagari Condensed Thin
+  * Noto Serif Devanagari ExtraBold
+  * Noto Serif Devanagari ExtraCondensed
+  * Noto Serif Devanagari ExtraCondensed Black
+  * Noto Serif Devanagari ExtraCondensed ExtraBold
+  * Noto Serif Devanagari ExtraCondensed ExtraLight
+  * Noto Serif Devanagari ExtraCondensed Light
+  * Noto Serif Devanagari ExtraCondensed Medium
+  * Noto Serif Devanagari ExtraCondensed SemiBold
+  * Noto Serif Devanagari ExtraCondensed Thin
+  * Noto Serif Devanagari ExtraLight
+  * Noto Serif Devanagari Light
+  * Noto Serif Devanagari Medium
+  * Noto Serif Devanagari SemiBold
+  * Noto Serif Devanagari SemiCondensed
+  * Noto Serif Devanagari SemiCondensed Black
+  * Noto Serif Devanagari SemiCondensed ExtraBold
+  * Noto Serif Devanagari SemiCondensed ExtraLight
+  * Noto Serif Devanagari SemiCondensed Light
+  * Noto Serif Devanagari SemiCondensed Medium
+  * Noto Serif Devanagari SemiCondensed SemiBold
+  * Noto Serif Devanagari SemiCondensed Thin
+  * Noto Serif Devanagari Thin
+  * Noto Serif Display Black
+  * Noto Serif Display Condensed
+  * Noto Serif Display Condensed Black
+  * Noto Serif Display Condensed ExtraBold
+  * Noto Serif Display Condensed ExtraLight
+  * Noto Serif Display Condensed Light
+  * Noto Serif Display Condensed Medium
+  * Noto Serif Display Condensed SemiBold
+  * Noto Serif Display Condensed Thin
+  * Noto Serif Display ExtraBold
+  * Noto Serif Display ExtraCondensed
+  * Noto Serif Display ExtraCondensed Black
+  * Noto Serif Display ExtraCondensed ExtraBold
+  * Noto Serif Display ExtraCondensed ExtraLight
+  * Noto Serif Display ExtraCondensed Light
+  * Noto Serif Display ExtraCondensed Medium
+  * Noto Serif Display ExtraCondensed SemiBold
+  * Noto Serif Display ExtraCondensed Thin
+  * Noto Serif Display ExtraLight
+  * Noto Serif Display Light
+  * Noto Serif Display Medium
+  * Noto Serif Display SemiBold
+  * Noto Serif Display SemiCondensed
+  * Noto Serif Display SemiCondensed Black
+  * Noto Serif Display SemiCondensed ExtraBold
+  * Noto Serif Display SemiCondensed ExtraLight
+  * Noto Serif Display SemiCondensed Light
+  * Noto Serif Display SemiCondensed Medium
+  * Noto Serif Display SemiCondensed SemiBold
+  * Noto Serif Display SemiCondensed Thin
+  * Noto Serif Display Thin
+  * Noto Serif Ethiopic Bk
+  * Noto Serif Ethiopic Cn
+  * Noto Serif Ethiopic Cn Bk
+  * Noto Serif Ethiopic Cn Lt
+  * Noto Serif Ethiopic Cn Md
+  * Noto Serif Ethiopic Cn SmBd
+  * Noto Serif Ethiopic Cn Th
+  * Noto Serif Ethiopic Cn XBd
+  * Noto Serif Ethiopic Cn XLt
+  * Noto Serif Ethiopic Lt
+  * Noto Serif Ethiopic Md
+  * Noto Serif Ethiopic SmBd
+  * Noto Serif Ethiopic SmCn
+  * Noto Serif Ethiopic SmCn Bk
+  * Noto Serif Ethiopic SmCn Lt
+  * Noto Serif Ethiopic SmCn Md
+  * Noto Serif Ethiopic SmCn SmBd
+  * Noto Serif Ethiopic SmCn Th
+  * Noto Serif Ethiopic SmCn XBd
+  * Noto Serif Ethiopic SmCn XLt
+  * Noto Serif Ethiopic Th
+  * Noto Serif Ethiopic XBd
+  * Noto Serif Ethiopic XCn
+  * Noto Serif Ethiopic XCn Bk
+  * Noto Serif Ethiopic XCn Lt
+  * Noto Serif Ethiopic XCn Md
+  * Noto Serif Ethiopic XCn SmBd
+  * Noto Serif Ethiopic XCn Th
+  * Noto Serif Ethiopic XCn XBd
+  * Noto Serif Ethiopic XCn XLt
+  * Noto Serif Ethiopic XLt
+  * Noto Serif ExtraBold
+  * Noto Serif ExtraCondensed
+  * Noto Serif ExtraCondensed Black
+  * Noto Serif ExtraCondensed ExtraBold
+  * Noto Serif ExtraCondensed ExtraLight
+  * Noto Serif ExtraCondensed Light
+  * Noto Serif ExtraCondensed Medium
+  * Noto Serif ExtraCondensed SemiBold
+  * Noto Serif ExtraCondensed Thin
+  * Noto Serif ExtraLight
+  * Noto Serif Georgian Bk
+  * Noto Serif Georgian Cn
+  * Noto Serif Georgian Cn Bk
+  * Noto Serif Georgian Cn Lt
+  * Noto Serif Georgian Cn Md
+  * Noto Serif Georgian Cn SmBd
+  * Noto Serif Georgian Cn Th
+  * Noto Serif Georgian Cn XBd
+  * Noto Serif Georgian Cn XLt
+  * Noto Serif Georgian Lt
+  * Noto Serif Georgian Md
+  * Noto Serif Georgian SmBd
+  * Noto Serif Georgian SmCn
+  * Noto Serif Georgian SmCn Bk
+  * Noto Serif Georgian SmCn Lt
+  * Noto Serif Georgian SmCn Md
+  * Noto Serif Georgian SmCn SmBd
+  * Noto Serif Georgian SmCn Th
+  * Noto Serif Georgian SmCn XBd
+  * Noto Serif Georgian SmCn XLt
+  * Noto Serif Georgian Th
+  * Noto Serif Georgian XBd
+  * Noto Serif Georgian XCn
+  * Noto Serif Georgian XCn Bk
+  * Noto Serif Georgian XCn Lt
+  * Noto Serif Georgian XCn Md
+  * Noto Serif Georgian XCn SmBd
+  * Noto Serif Georgian XCn Th
+  * Noto Serif Georgian XCn XBd
+  * Noto Serif Georgian XCn XLt
+  * Noto Serif Georgian XLt
+  * Noto Serif Gujarati Black
+  * Noto Serif Gujarati ExtraBold
+  * Noto Serif Gujarati ExtraLight
+  * Noto Serif Gujarati Light
+  * Noto Serif Gujarati Medium
+  * Noto Serif Gujarati SemiBold
+  * Noto Serif Gujarati Thin
+  * Noto Serif Gurmukhi Black
+  * Noto Serif Gurmukhi ExtraBold
+  * Noto Serif Gurmukhi ExtraLight
+  * Noto Serif Gurmukhi Light
+  * Noto Serif Gurmukhi Medium
+  * Noto Serif Gurmukhi SemiBold
+  * Noto Serif Gurmukhi Thin
+  * Noto Serif Hebrew Blk
+  * Noto Serif Hebrew Cond
+  * Noto Serif Hebrew Cond Blk
+  * Noto Serif Hebrew Cond ExtBd
+  * Noto Serif Hebrew Cond ExtLt
+  * Noto Serif Hebrew Cond Light
+  * Noto Serif Hebrew Cond Med
+  * Noto Serif Hebrew Cond SemBd
+  * Noto Serif Hebrew Cond Thin
+  * Noto Serif Hebrew ExtBd
+  * Noto Serif Hebrew ExtCond
+  * Noto Serif Hebrew ExtCond Blk
+  * Noto Serif Hebrew ExtCond ExtBd
+  * Noto Serif Hebrew ExtCond ExtLt
+  * Noto Serif Hebrew ExtCond Light
+  * Noto Serif Hebrew ExtCond Med
+  * Noto Serif Hebrew ExtCond SemBd
+  * Noto Serif Hebrew ExtCond Thin
+  * Noto Serif Hebrew ExtLt
+  * Noto Serif Hebrew Light
+  * Noto Serif Hebrew Med
+  * Noto Serif Hebrew SemBd
+  * Noto Serif Hebrew SemCond
+  * Noto Serif Hebrew SemCond Blk
+  * Noto Serif Hebrew SemCond ExtBd
+  * Noto Serif Hebrew SemCond ExtLt
+  * Noto Serif Hebrew SemCond Light
+  * Noto Serif Hebrew SemCond Med
+  * Noto Serif Hebrew SemCond SemBd
+  * Noto Serif Hebrew SemCond Thin
+  * Noto Serif Hebrew Thin
+  * Noto Serif Hmong Nyiakeng Medium
+  * Noto Serif Hmong Nyiakeng SemiBold
+  * Noto Serif Kannada Black
+  * Noto Serif Kannada ExtraBold
+  * Noto Serif Kannada ExtraLight
+  * Noto Serif Kannada Light
+  * Noto Serif Kannada Medium
+  * Noto Serif Kannada SemiBold
+  * Noto Serif Kannada Thin
+  * Noto Serif Khmer Black
+  * Noto Serif Khmer Condensed
+  * Noto Serif Khmer Condensed Black
+  * Noto Serif Khmer Condensed ExtraBold
+  * Noto Serif Khmer Condensed ExtraLight
+  * Noto Serif Khmer Condensed Light
+  * Noto Serif Khmer Condensed Medium
+  * Noto Serif Khmer Condensed SemiBold
+  * Noto Serif Khmer Condensed Thin
+  * Noto Serif Khmer ExtraBold
+  * Noto Serif Khmer ExtraCondensed
+  * Noto Serif Khmer ExtraCondensed Black
+  * Noto Serif Khmer ExtraCondensed ExtraBold
+  * Noto Serif Khmer ExtraCondensed ExtraLight
+  * Noto Serif Khmer ExtraCondensed Light
+  * Noto Serif Khmer ExtraCondensed Medium
+  * Noto Serif Khmer ExtraCondensed SemiBold
+  * Noto Serif Khmer ExtraCondensed Thin
+  * Noto Serif Khmer ExtraLight
+  * Noto Serif Khmer Light
+  * Noto Serif Khmer Medium
+  * Noto Serif Khmer SemiBold
+  * Noto Serif Khmer SemiCondensed
+  * Noto Serif Khmer SemiCondensed Black
+  * Noto Serif Khmer SemiCondensed ExtraBold
+  * Noto Serif Khmer SemiCondensed ExtraLight
+  * Noto Serif Khmer SemiCondensed Light
+  * Noto Serif Khmer SemiCondensed Medium
+  * Noto Serif Khmer SemiCondensed SemiBold
+  * Noto Serif Khmer SemiCondensed Thin
+  * Noto Serif Khmer Thin
+  * Noto Serif Lao Blk
+  * Noto Serif Lao Cond
+  * Noto Serif Lao Cond Blk
+  * Noto Serif Lao Cond ExtBd
+  * Noto Serif Lao Cond ExtLt
+  * Noto Serif Lao Cond Light
+  * Noto Serif Lao Cond Med
+  * Noto Serif Lao Cond SemBd
+  * Noto Serif Lao Cond Thin
+  * Noto Serif Lao ExtBd
+  * Noto Serif Lao ExtCond
+  * Noto Serif Lao ExtCond Blk
+  * Noto Serif Lao ExtCond ExtBd
+  * Noto Serif Lao ExtCond ExtLt
+  * Noto Serif Lao ExtCond Light
+  * Noto Serif Lao ExtCond Med
+  * Noto Serif Lao ExtCond SemBd
+  * Noto Serif Lao ExtCond Thin
+  * Noto Serif Lao ExtLt
+  * Noto Serif Lao Light
+  * Noto Serif Lao Med
+  * Noto Serif Lao SemBd
+  * Noto Serif Lao SemCond
+  * Noto Serif Lao SemCond Blk
+  * Noto Serif Lao SemCond ExtBd
+  * Noto Serif Lao SemCond ExtLt
+  * Noto Serif Lao SemCond Light
+  * Noto Serif Lao SemCond Med
+  * Noto Serif Lao SemCond SemBd
+  * Noto Serif Lao SemCond Thin
+  * Noto Serif Lao Thin
+  * Noto Serif Light
+  * Noto Serif Malayalam Black
+  * Noto Serif Malayalam ExtraBold
+  * Noto Serif Malayalam ExtraLight
+  * Noto Serif Malayalam Light
+  * Noto Serif Malayalam Medium
+  * Noto Serif Malayalam SemiBold
+  * Noto Serif Malayalam Thin
+  * Noto Serif Medium
+  * Noto Serif Myanmar Blk
+  * Noto Serif Myanmar Cond Blk
+  * Noto Serif Myanmar Cond ExtBd
+  * Noto Serif Myanmar Cond ExtLt
+  * Noto Serif Myanmar Cond Med
+  * Noto Serif Myanmar Cond SemBd
+  * Noto Serif Myanmar Cond Thin
+  * Noto Serif Myanmar Condensed
+  * Noto Serif Myanmar Condensed Bold
+  * Noto Serif Myanmar Condensed Light
+  * Noto Serif Myanmar ExtBd
+  * Noto Serif Myanmar ExtCond
+  * Noto Serif Myanmar ExtCond Blk
+  * Noto Serif Myanmar ExtCond ExtBd
+  * Noto Serif Myanmar ExtCond ExtLt
+  * Noto Serif Myanmar ExtCond Light
+  * Noto Serif Myanmar ExtCond Med
+  * Noto Serif Myanmar ExtCond SemBd
+  * Noto Serif Myanmar ExtCond Thin
+  * Noto Serif Myanmar ExtLt
+  * Noto Serif Myanmar Light
+  * Noto Serif Myanmar Med
+  * Noto Serif Myanmar SemBd
+  * Noto Serif Myanmar SemCond
+  * Noto Serif Myanmar SemCond Blk
+  * Noto Serif Myanmar SemCond ExtBd
+  * Noto Serif Myanmar SemCond ExtLt
+  * Noto Serif Myanmar SemCond Light
+  * Noto Serif Myanmar SemCond Med
+  * Noto Serif Myanmar SemCond SemBd
+  * Noto Serif Myanmar SemCond Thin
+  * Noto Serif Myanmar Thin
+  * Noto Serif SemiBold
+  * Noto Serif SemiCondensed
+  * Noto Serif SemiCondensed Black
+  * Noto Serif SemiCondensed ExtraBold
+  * Noto Serif SemiCondensed ExtraLight
+  * Noto Serif SemiCondensed Light
+  * Noto Serif SemiCondensed Medium
+  * Noto Serif SemiCondensed SemiBold
+  * Noto Serif SemiCondensed Thin
+  * Noto Serif Sinhala Black
+  * Noto Serif Sinhala Condensed
+  * Noto Serif Sinhala Condensed Black
+  * Noto Serif Sinhala Condensed ExtraBold
+  * Noto Serif Sinhala Condensed ExtraLight
+  * Noto Serif Sinhala Condensed Light
+  * Noto Serif Sinhala Condensed Medium
+  * Noto Serif Sinhala Condensed SemiBold
+  * Noto Serif Sinhala Condensed Thin
+  * Noto Serif Sinhala ExtraBold
+  * Noto Serif Sinhala ExtraCondensed
+  * Noto Serif Sinhala ExtraCondensed Black
+  * Noto Serif Sinhala ExtraCondensed ExtraBold
+  * Noto Serif Sinhala ExtraCondensed ExtraLight
+  * Noto Serif Sinhala ExtraCondensed Light
+  * Noto Serif Sinhala ExtraCondensed Medium
+  * Noto Serif Sinhala ExtraCondensed SemiBold
+  * Noto Serif Sinhala ExtraCondensed Thin
+  * Noto Serif Sinhala ExtraLight
+  * Noto Serif Sinhala Light
+  * Noto Serif Sinhala Medium
+  * Noto Serif Sinhala SemiBold
+  * Noto Serif Sinhala SemiCondensed
+  * Noto Serif Sinhala SemiCondensed Black
+  * Noto Serif Sinhala SemiCondensed ExtraBold
+  * Noto Serif Sinhala SemiCondensed ExtraLight
+  * Noto Serif Sinhala SemiCondensed Light
+  * Noto Serif Sinhala SemiCondensed Medium
+  * Noto Serif Sinhala SemiCondensed SemiBold
+  * Noto Serif Sinhala SemiCondensed Thin
+  * Noto Serif Sinhala Thin
+  * Noto Serif Tamil Black
+  * Noto Serif Tamil Condensed
+  * Noto Serif Tamil Condensed Black
+  * Noto Serif Tamil Condensed ExtraBold
+  * Noto Serif Tamil Condensed ExtraLight
+  * Noto Serif Tamil Condensed Light
+  * Noto Serif Tamil Condensed Medium
+  * Noto Serif Tamil Condensed SemiBold
+  * Noto Serif Tamil Condensed Thin
+  * Noto Serif Tamil ExtraBold
+  * Noto Serif Tamil ExtraCondensed
+  * Noto Serif Tamil ExtraCondensed Black
+  * Noto Serif Tamil ExtraCondensed ExtraBold
+  * Noto Serif Tamil ExtraCondensed ExtraLight
+  * Noto Serif Tamil ExtraCondensed Light
+  * Noto Serif Tamil ExtraCondensed Medium
+  * Noto Serif Tamil ExtraCondensed SemiBold
+  * Noto Serif Tamil ExtraCondensed Thin
+  * Noto Serif Tamil ExtraLight
+  * Noto Serif Tamil Light
+  * Noto Serif Tamil Medium
+  * Noto Serif Tamil SemiBold
+  * Noto Serif Tamil SemiCondensed
+  * Noto Serif Tamil SemiCondensed Black
+  * Noto Serif Tamil SemiCondensed ExtraBold
+  * Noto Serif Tamil SemiCondensed ExtraLight
+  * Noto Serif Tamil SemiCondensed Light
+  * Noto Serif Tamil SemiCondensed Medium
+  * Noto Serif Tamil SemiCondensed SemiBold
+  * Noto Serif Tamil SemiCondensed Thin
+  * Noto Serif Tamil Thin
+  * Noto Serif Telugu Black
+  * Noto Serif Telugu ExtraBold
+  * Noto Serif Telugu ExtraLight
+  * Noto Serif Telugu Light
+  * Noto Serif Telugu Medium
+  * Noto Serif Telugu SemiBold
+  * Noto Serif Telugu Thin
+  * Noto Serif Thai Blk
+  * Noto Serif Thai Cond
+  * Noto Serif Thai Cond Blk
+  * Noto Serif Thai Cond ExtBd
+  * Noto Serif Thai Cond ExtLt
+  * Noto Serif Thai Cond Light
+  * Noto Serif Thai Cond Med
+  * Noto Serif Thai Cond SemBd
+  * Noto Serif Thai Cond Thin
+  * Noto Serif Thai ExtBd
+  * Noto Serif Thai ExtCond
+  * Noto Serif Thai ExtCond Blk
+  * Noto Serif Thai ExtCond ExtBd
+  * Noto Serif Thai ExtCond ExtLt
+  * Noto Serif Thai ExtCond Light
+  * Noto Serif Thai ExtCond Med
+  * Noto Serif Thai ExtCond SemBd
+  * Noto Serif Thai ExtCond Thin
+  * Noto Serif Thai ExtLt
+  * Noto Serif Thai Light
+  * Noto Serif Thai Med
+  * Noto Serif Thai SemBd
+  * Noto Serif Thai SemCond
+  * Noto Serif Thai SemCond Blk
+  * Noto Serif Thai SemCond ExtBd
+  * Noto Serif Thai SemCond ExtLt
+  * Noto Serif Thai SemCond Light
+  * Noto Serif Thai SemCond Med
+  * Noto Serif Thai SemCond SemBd
+  * Noto Serif Thai SemCond Thin
+  * Noto Serif Thai Thin
+  * Noto Serif Thin
+  * Noto Serif Tibetan Black
+  * Noto Serif Tibetan ExtraBold
+  * Noto Serif Tibetan ExtraLight
+  * Noto Serif Tibetan Light
+  * Noto Serif Tibetan Medium
+  * Noto Serif Tibetan SemiBold
+  * Noto Serif Tibetan Thin
+  * Noto Serif Yezidi Medium
+  * Noto Serif Yezidi SemiBold
+  * NotoSerifTamilSlanted Black
+  * NotoSerifTamilSlanted Condensed
+  * NotoSerifTamilSlanted Condensed Black
+  * NotoSerifTamilSlanted Condensed ExtraBold
+  * NotoSerifTamilSlanted Condensed ExtraLight
+  * NotoSerifTamilSlanted Condensed Light
+  * NotoSerifTamilSlanted Condensed Medium
+  * NotoSerifTamilSlanted Condensed SemiBold
+  * NotoSerifTamilSlanted Condensed Thin
+  * NotoSerifTamilSlanted ExtraBold
+  * NotoSerifTamilSlanted ExtraCondensed
+  * NotoSerifTamilSlanted ExtraCondensed Black
+  * NotoSerifTamilSlanted ExtraCondensed ExtraBold
+  * NotoSerifTamilSlanted ExtraCondensed ExtraLight
+  * NotoSerifTamilSlanted ExtraCondensed Light
+  * NotoSerifTamilSlanted ExtraCondensed Medium
+  * NotoSerifTamilSlanted ExtraCondensed SemiBold
+  * NotoSerifTamilSlanted ExtraCondensed Thin
+  * NotoSerifTamilSlanted ExtraLight
+  * NotoSerifTamilSlanted Light
+  * NotoSerifTamilSlanted Medium
+  * NotoSerifTamilSlanted SemiBold
+  * NotoSerifTamilSlanted SemiCondensed
+  * NotoSerifTamilSlanted SemiCondensed Black
+  * NotoSerifTamilSlanted SemiCondensed ExtraBold
+  * NotoSerifTamilSlanted SemiCondensed ExtraLight
+  * NotoSerifTamilSlanted SemiCondensed Light
+  * NotoSerifTamilSlanted SemiCondensed Medium
+  * NotoSerifTamilSlanted SemiCondensed SemiBold
+  * NotoSerifTamilSlanted SemiCondensed Thin
+  * NotoSerifTamilSlanted Thin
  .
  The name "Noto" is short for "No Tofu",
  describing the aim of covering all living Unicode scripts
@@ -52155,6 +53988,30 @@ Description: Linux console fonts in various encodings
  CP1250, CP1251, CP1252 codepages, as well as two Unicode
  fonts with wide coverage, and an ISO-8859-16 ACM file.
 
+Package: foobillardplus-data
+Source: foobillardplus
+Version: 3.43~svn170+dfsg-7
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 23761
+Depends: fonts-dejavu
+Suggests: foobillardplus
+Homepage: https://foobillardplus.sourceforge.net
+Priority: optional
+Section: games
+Filename: pool/main/f/foobillardplus/foobillardplus-data_3.43~svn170+dfsg-7_all.deb
+Size: 20003216
+SHA256: 48adfd599afdbcbc008fffdf982c5bb18ac62286dc012ac88e9b8abc556a28f4
+SHA1: a933971ca724efe11bbf9034ff0ea58dc62a30fe
+MD5sum: 37f593ccd9ac708bc22b14c4c6648a13
+Description: 3D OpenGL Billiard Game -- data files
+ FooBillard++ is an advanced 3D OpenGL billiard game based on the original
+ foobillard 3.0a sources from Florian Berger. You can play it with one or two
+ players or against the computer.
+ .
+ This package contains game data for foobillardplus and includes all graphics
+ and sounds.
+
 Package: foomatic-db
 Version: 20230202-1
 Architecture: all
@@ -52623,6 +54480,207 @@ Description: Set of files to help learn/test forensics tools and techniques (met
  .
  This package provides the complete set of files for forensics-samples.
 
+Package: forensics-samples-btrfs
+Source: forensics-samples
+Version: 1.1.4-5
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 29695
+Depends: forensics-samples-tools
+Suggests: forensics-samples-all, forensics-samples-exfat, forensics-samples-ext2, forensics-samples-ext4, forensics-samples-files, forensics-samples-multiple, forensics-samples-ntfs, forensics-samples-vfat
+Multi-Arch: foreign
+Homepage: https://github.com/eribertomota/forensics-samples
+Priority: optional
+Section: utils
+Filename: pool/main/f/forensics-samples/forensics-samples-btrfs_1.1.4-5_all.deb
+Size: 30358456
+SHA256: 2fa4fdf97668a91efbf1afef1dcda9ca71e40df88c4a9551ae587fdd0201a289
+SHA1: 5fa443876c544ecb0b5bdab105fc1450a9530c3b
+MD5sum: ed2102542b5bcc2e0462850dd5127255
+Description: Set of files to help learn/test forensics tools and techniques (btrfs)
+ forensics-samples is a set of useful files to help to learn or test forensics
+ tools and techniques. These files are examples of pictures, filesystems and
+ other possible artifacts as memory dumps (not available yet).
+ .
+ forensics-samples is useful for students and CI tests. The main intent of this
+ work is provide a standardized set of files to avoid time waste in some tasks
+ when learning about forensics or testing tools.
+ .
+ There are some filesystem images available (currently: ext2, ext4, btrfs,
+ NTFS, FAT2 (vfat) and exFAT). Inside each filesystem image, all files from
+ "original-files" directory were copied and, after this, all directories ending
+ with "2" in their names were deleted. Is possible use tools to analyse the
+ files and their metadata or carvers to recover deleted files.
+ .
+ On Debian, forensics-samples also is useful to provide files to be used by
+ other packages in CI tests (autopkgtest), making several source-packages
+ smallest (e.g.: metacam, ext4magic, foremost, magicrescue, disktype, etc).
+ All you need is use it as a dependency for your test in
+ debian/tests/control file.
+ .
+ This package provides an image of a btrfs filesystem.
+
+Package: forensics-samples-exfat
+Source: forensics-samples
+Version: 1.1.4-5
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 29598
+Depends: forensics-samples-tools
+Suggests: forensics-samples-all, forensics-samples-btrfs, forensics-samples-ext2, forensics-samples-ext4, forensics-samples-files, forensics-samples-multiple, forensics-samples-ntfs, forensics-samples-vfat
+Multi-Arch: foreign
+Homepage: https://github.com/eribertomota/forensics-samples
+Priority: optional
+Section: utils
+Filename: pool/main/f/forensics-samples/forensics-samples-exfat_1.1.4-5_all.deb
+Size: 30270236
+SHA256: 38f93cadc2ce84fe0e3420ee4b64331d078c8a4c79a8c7204687e00591cfdbad
+SHA1: abf075aaeba697ff8933e19107c468ed62b985a4
+MD5sum: 98b1d818542b0e0321685b66cb70364e
+Description: Set of files to help learn/test forensics tools and techniques (exFAT)
+ forensics-samples is a set of useful files to help to learn or test forensics
+ tools and techniques. These files are examples of pictures, filesystems and
+ other possible artifacts as memory dumps (not available yet).
+ .
+ forensics-samples is useful for students and CI tests. The main intent of this
+ work is provide a standardized set of files to avoid time waste in some tasks
+ when learning about forensics or testing tools.
+ .
+ There are some filesystem images available (currently: ext2, ext4, btrfs,
+ NTFS, FAT2 (vfat) and exFAT). Inside each filesystem image, all files from
+ "original-files" directory were copied and, after this, all directories ending
+ with "2" in their names were deleted. Is possible use tools to analyse the
+ files and their metadata or carvers to recover deleted files.
+ .
+ On Debian, forensics-samples also is useful to provide files to be used by
+ other packages in CI tests (autopkgtest), making several source-packages
+ smallest (e.g.: metacam, ext4magic, foremost, magicrescue, disktype, etc).
+ All you need is use it as a dependency for your test in
+ debian/tests/control file.
+ .
+ This package provides an image of an exFAT filesystem.
+
+Package: forensics-samples-ext2
+Source: forensics-samples
+Version: 1.1.4-5
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 29639
+Depends: forensics-samples-tools
+Suggests: forensics-samples-all, forensics-samples-btrfs, forensics-samples-exfat, forensics-samples-ext4, forensics-samples-files, forensics-samples-multiple, forensics-samples-ntfs, forensics-samples-vfat
+Multi-Arch: foreign
+Homepage: https://github.com/eribertomota/forensics-samples
+Priority: optional
+Section: utils
+Filename: pool/main/f/forensics-samples/forensics-samples-ext2_1.1.4-5_all.deb
+Size: 30314792
+SHA256: 14b2e38dbe7ac272ba406db327d488ea787d6d8da3786a6b7f32eaf97b1de917
+SHA1: 9274eef817a23bd20600b210dc349419348c5995
+MD5sum: 478accbe6507a5127f22bb9b587e19e4
+Description: Set of files to help learn/test forensics tools and techniques (ext2)
+ forensics-samples is a set of useful files to help to learn or test forensics
+ tools and techniques. These files are examples of pictures, filesystems and
+ other possible artifacts as memory dumps (not available yet).
+ .
+ forensics-samples is useful for students and CI tests. The main intent of this
+ work is provide a standardized set of files to avoid time waste in some tasks
+ when learning about forensics or testing tools.
+ .
+ There are some filesystem images available (currently: ext2, ext4, btrfs,
+ NTFS, FAT2 (vfat) and exFAT). Inside each filesystem image, all files from
+ "original-files" directory were copied and, after this, all directories ending
+ with "2" in their names were deleted. Is possible use tools to analyse the
+ files and their metadata or carvers to recover deleted files.
+ .
+ On Debian, forensics-samples also is useful to provide files to be used by
+ other packages in CI tests (autopkgtest), making several source-packages
+ smallest (e.g.: metacam, ext4magic, foremost, magicrescue, disktype, etc).
+ All you need is use it as a dependency for your test in
+ debian/tests/control file.
+ .
+ This package provides an image of an ext2 filesystem.
+
+Package: forensics-samples-ext4
+Source: forensics-samples
+Version: 1.1.4-5
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 29613
+Depends: forensics-samples-tools
+Suggests: forensics-samples-all, forensics-samples-btrfs, forensics-samples-exfat, forensics-samples-ext2, forensics-samples-files, forensics-samples-multiple, forensics-samples-ntfs, forensics-samples-vfat
+Multi-Arch: foreign
+Homepage: https://github.com/eribertomota/forensics-samples
+Priority: optional
+Section: utils
+Filename: pool/main/f/forensics-samples/forensics-samples-ext4_1.1.4-5_all.deb
+Size: 30288216
+SHA256: edee3ddb72cfca584d55c645482131b0fcc157c491b4fd1227e3709947e15856
+SHA1: ed958a2317859a10073c8244d2809e31b45aeae2
+MD5sum: 15dd935d303a6a98fa36d5a2f4febebc
+Description: Set of files to help learn/test forensics tools and techniques (ext4)
+ forensics-samples is a set of useful files to help to learn or test forensics
+ tools and techniques. These files are examples of pictures, filesystems and
+ other possible artifacts as memory dumps (not available yet).
+ .
+ forensics-samples is useful for students and CI tests. The main intent of this
+ work is provide a standardized set of files to avoid time waste in some tasks
+ when learning about forensics or testing tools.
+ .
+ There are some filesystem images available (currently: ext2, ext4, btrfs,
+ NTFS, FAT2 (vfat) and exFAT). Inside each filesystem image, all files from
+ "original-files" directory were copied and, after this, all directories ending
+ with "2" in their names were deleted. Is possible use tools to analyse the
+ files and their metadata or carvers to recover deleted files.
+ .
+ On Debian, forensics-samples also is useful to provide files to be used by
+ other packages in CI tests (autopkgtest), making several source-packages
+ smallest (e.g.: metacam, ext4magic, foremost, magicrescue, disktype, etc).
+ All you need is use it as a dependency for your test in
+ debian/tests/control file.
+ .
+ This package provides an image of an ext4 filesystem.
+
+Package: forensics-samples-files
+Source: forensics-samples
+Version: 1.1.4-5
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 34089
+Depends: forensics-samples-tools
+Suggests: forensics-samples-all, forensics-samples-btrfs, forensics-samples-exfat, forensics-samples-ext2, forensics-samples-ext4, forensics-samples-multiple, forensics-samples-ntfs, forensics-samples-vfat
+Multi-Arch: foreign
+Homepage: https://github.com/eribertomota/forensics-samples
+Priority: optional
+Section: utils
+Filename: pool/main/f/forensics-samples/forensics-samples-files_1.1.4-5_all.deb
+Size: 30306832
+SHA256: 8710c751be1a71a88e343540ea1a5cab1fd349c2bcdf07626a27cfe68689e7c4
+SHA1: 71475ce87ee938f5ca066d471139cb4cff1ae563
+MD5sum: 805900e626f99f15cc768a3d403353e0
+Description: Set of files to help learn/test forensics tools and techniques (files)
+ forensics-samples is a set of useful files to help to learn or test forensics
+ tools and techniques. These files are examples of pictures, filesystems and
+ other possible artifacts as memory dumps (not available yet).
+ .
+ forensics-samples is useful for students and CI tests. The main intent of this
+ work is provide a standardized set of files to avoid time waste in some tasks
+ when learning about forensics or testing tools.
+ .
+ There are some filesystem images available (currently: ext2, ext4, btrfs,
+ NTFS, FAT2 (vfat) and exFAT). Inside each filesystem image, all files from
+ "original-files" directory were copied and, after this, all directories ending
+ with "2" in their names were deleted. Is possible use tools to analyse the
+ files and their metadata or carvers to recover deleted files.
+ .
+ On Debian, forensics-samples also is useful to provide files to be used by
+ other packages in CI tests (autopkgtest), making several source-packages
+ smallest (e.g.: metacam, ext4magic, foremost, magicrescue, disktype, etc).
+ All you need is use it as a dependency for your test in
+ debian/tests/control file.
+ .
+ This package provides all files from "original-files" and "original-multiple"
+ directories.
+
 Package: forensics-samples-multiple
 Source: forensics-samples
 Version: 1.1.4-5
@@ -52664,6 +54722,46 @@ Description: Set of files to help learn/test forensics tools and techniques (mul
  This package provides an image called fs.multiple. This disk image has 4
  partitions with the following filesystems: btrfs, ext4, exFAT and NTFS.
 
+Package: forensics-samples-ntfs
+Source: forensics-samples
+Version: 1.1.4-5
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 29640
+Depends: forensics-samples-tools
+Suggests: forensics-samples-all, forensics-samples-btrfs, forensics-samples-exfat, forensics-samples-ext2, forensics-samples-ext4, forensics-samples-files, forensics-samples-multiple, forensics-samples-vfat
+Multi-Arch: foreign
+Homepage: https://github.com/eribertomota/forensics-samples
+Priority: optional
+Section: utils
+Filename: pool/main/f/forensics-samples/forensics-samples-ntfs_1.1.4-5_all.deb
+Size: 30315240
+SHA256: 6091f067d07e3b810416adb74b07591f6125c45225b6caeaee3be5a45b257579
+SHA1: 5cc56264163f851f74a16abe27c4ef81ac5d115e
+MD5sum: 8225ec762f784f1a966e7da771bb8a32
+Description: Set of files to help learn/test forensics tools and techniques (ntfs)
+ forensics-samples is a set of useful files to help to learn or test forensics
+ tools and techniques. These files are examples of pictures, filesystems and
+ other possible artifacts as memory dumps (not available yet).
+ .
+ forensics-samples is useful for students and CI tests. The main intent of this
+ work is provide a standardized set of files to avoid time waste in some tasks
+ when learning about forensics or testing tools.
+ .
+ There are some filesystem images available (currently: ext2, ext4, btrfs,
+ NTFS, FAT2 (vfat) and exFAT). Inside each filesystem image, all files from
+ "original-files" directory were copied and, after this, all directories ending
+ with "2" in their names were deleted. Is possible use tools to analyse the
+ files and their metadata or carvers to recover deleted files.
+ .
+ On Debian, forensics-samples also is useful to provide files to be used by
+ other packages in CI tests (autopkgtest), making several source-packages
+ smallest (e.g.: metacam, ext4magic, foremost, magicrescue, disktype, etc).
+ All you need is use it as a dependency for your test in
+ debian/tests/control file.
+ .
+ This package provides an image of an NTFS filesystem.
+
 Package: forensics-samples-tools
 Source: forensics-samples
 Version: 1.1.4-5
@@ -52703,6 +54801,46 @@ Description: Set of files to help learn/test forensics tools and techniques (too
  debian/tests/control file.
  .
  This package provides some tools (currently fsdeploy only).
+
+Package: forensics-samples-vfat
+Source: forensics-samples
+Version: 1.1.4-5
+Architecture: all
+Maintainer: Debian Security Tools <team+pkg-security@tracker.debian.org>
+Installed-Size: 29601
+Depends: forensics-samples-tools
+Suggests: forensics-samples-all, forensics-samples-btrfs, forensics-samples-exfat, forensics-samples-ext2, forensics-samples-ext4, forensics-samples-files, forensics-samples-multiple, forensics-samples-ntfs
+Multi-Arch: foreign
+Homepage: https://github.com/eribertomota/forensics-samples
+Priority: optional
+Section: utils
+Filename: pool/main/f/forensics-samples/forensics-samples-vfat_1.1.4-5_all.deb
+Size: 30273772
+SHA256: 22f788f637b06714d501ffaf553648918dcde297b259cd0aad7193aeecdc4db5
+SHA1: 9ad27a2c434bf44b4d78467badf9365db76d9549
+MD5sum: 88b88cb97d9482dc65a3424f3fcb4614
+Description: Set of files to help learn/test forensics tools and techniques (vfat)
+ forensics-samples is a set of useful files to help to learn or test forensics
+ tools and techniques. These files are examples of pictures, filesystems and
+ other possible artifacts as memory dumps (not available yet).
+ .
+ forensics-samples is useful for students and CI tests. The main intent of this
+ work is provide a standardized set of files to avoid time waste in some tasks
+ when learning about forensics or testing tools.
+ .
+ There are some filesystem images available (currently: ext2, ext4, btrfs,
+ NTFS, FAT2 (vfat) and exFAT). Inside each filesystem image, all files from
+ "original-files" directory were copied and, after this, all directories ending
+ with "2" in their names were deleted. Is possible use tools to analyse the
+ files and their metadata or carvers to recover deleted files.
+ .
+ On Debian, forensics-samples also is useful to provide files to be used by
+ other packages in CI tests (autopkgtest), making several source-packages
+ smallest (e.g.: metacam, ext4magic, foremost, magicrescue, disktype, etc).
+ All you need is use it as a dependency for your test in
+ debian/tests/control file.
+ .
+ This package provides an image of a FAT32 with virtual table filesystem.
 
 Package: forge-doc
 Source: forge
@@ -53541,6 +55679,35 @@ Description: Free Pascal - SDK source code dependency package
  the package containing Free Pascal's own source code. It is meant to be used by
  the Lazarus IDE.
 
+Package: fpc-source-3.2.2
+Source: fpc
+Version: 3.2.2+dfsg-20
+Architecture: all
+Maintainer: Pascal Packaging Team <pkg-pascal-devel@lists.alioth.debian.org>
+Installed-Size: 211094
+Breaks: fpc-src
+Replaces: fpc-src
+Provides: fpc-source
+Multi-Arch: foreign
+Homepage: https://www.freepascal.org/
+Priority: optional
+Section: devel
+Filename: pool/main/f/fpc/fpc-source-3.2.2_3.2.2+dfsg-20_all.deb
+Size: 19810612
+SHA256: db7cddd08cd891678dc8273a0b0fe3c88a50b15bb16e940d107aa886a5184a12
+SHA1: be2c70a41c02b30ba45e6c2dd94adabf98eddcc6
+MD5sum: ab4fc1849790e83248fe5e0bdd1d2d0a
+Description: Free Pascal - SDK source code
+ The Free Pascal Compiler is an Object Pascal compiler supporting both Delphi
+ and Turbo Pascal 7.0 dialects, as well as Mac Pascal dialects. It provides a
+ completely portable RunTime Library (RTL) available on many platforms and
+ compatible with Turbo Pascal, along with a platform-independent class-based
+ Free Component Library (FCL) adding many Delphi extensions and interfacing
+ with many popular open source libraries.
+ .
+ This package contains Free Pascal's own source code. It is meant to be used by
+ the Lazarus IDE.
+
 Package: fpga-icestorm-chipdb
 Source: fpga-icestorm
 Version: 0~20230218gitd20a5e9-1~deb12u1
@@ -53717,6 +55884,35 @@ Description: Extensible Open Source CAx program
  .
  This is a metapackage of FreeCAD component packages.
 
+Package: freecad-common
+Source: freecad
+Version: 0.20.2+dfsg1-4
+Architecture: all
+Maintainer: Debian Science Maintainers <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 129052
+Breaks: freecad (<< 0.18), freecad-python2 (<< 0.18), freecad-runtime (<< 0.20)
+Replaces: freecad (<< 0.18), freecad-python2 (<< 0.18), freecad-runtime (<< 0.20)
+Multi-Arch: foreign
+Homepage: https://freecadweb.org/
+Priority: optional
+Section: science
+Filename: pool/main/f/freecad/freecad-common_0.20.2+dfsg1-4_all.deb
+Size: 19916876
+SHA256: 6488a7c46fa15ae2f74b8c979dbbb18ba2e08a32ba9b963399213dd181bb33c9
+SHA1: a8542af76e07d48eb8e564e6c75729a34fe79f51
+MD5sum: 93dda053e6dfb153afcec165c868310e
+Description: Extensible Open Source CAx program - common files
+ FreeCAD is an Open Source CAx RAD based on OpenCasCade, Qt and Python.
+ It features some key concepts like macro recording, workbenches, ability
+ to run as a server and dynamically loadable application extensions and
+ it is designed to be platform independent.
+ .
+ Currently, FreeCAD can import and display CAD models in IGES, STEP, and
+ BRep formats and meshes in STL, BMS, AST and Wavefront OBJ formats.
+ Editing and modeling features are currently somewhat limited.
+ .
+ This package contains FreeCAD common files and resources.
+
 Package: freeciv
 Version: 3.0.6-1
 Architecture: all
@@ -53738,6 +55934,30 @@ Description: Civilization turn based strategy game
  obtain the ultimate goal: the extinction of all other civilisations.
  .
  This metapackage will install the recommended client to play Freeciv.
+
+Package: freeciv-data
+Source: freeciv
+Version: 3.0.6-1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 46051
+Breaks: freeciv-sound-standard (<< 2.6.6-2)
+Replaces: freeciv-sound-standard (<< 2.6.6-2)
+Multi-Arch: foreign
+Homepage: https://www.freeciv.org/
+Priority: optional
+Section: games
+Filename: pool/main/f/freeciv/freeciv-data_3.0.6-1_all.deb
+Size: 20084720
+SHA256: 1d203402ec7c1a49ddda4edb98dc585c3a9c74297b52331e78a698a0fea40a69
+SHA1: 993f716365355d5f902c1aa740fa76a52c8d7db9
+MD5sum: b2bd74b6a86013be31c4cd3bc77e9b6e
+Description: Civilization turn based strategy game (data)
+ Freeciv is a free clone of the turn based strategy game Civilization.
+ In this game, each player becomes leader of a civilisation, fighting to
+ obtain the ultimate goal: the extinction of all other civilisations.
+ .
+ These are the common data and sound files for Freeciv.
 
 Package: freediameter
 Version: 1.2.1-8
@@ -53811,6 +56031,28 @@ Description: humorous top-down adventure and role-playing game
  .
  This package is a metapackage to install the game, its data and a
  front-end to manage game options and D-Mods.
+
+Package: freedink-data
+Version: 1.08.20190120-2
+Architecture: all
+Maintainer: Debian QA Group <packages@qa.debian.org>
+Installed-Size: 89698
+Homepage: https://www.gnu.org/software/freedink/
+Priority: optional
+Section: games
+Filename: pool/main/f/freedink-data/freedink-data_1.08.20190120-2_all.deb
+Size: 28509028
+SHA256: 5c3f0c22958364460057d9df5318a9a2a0fb84b9174cab57a9d50ad03a73d66c
+SHA1: d0824e4a2597b6fd69d18aa1fc21a00735f2f5ef
+MD5sum: 4258812e856ce0a1367a403d5c3ac3e6
+Description: adventure and role-playing game (assets)
+ Dink Smallwood is an adventure/role-playing game, similar to Zelda,
+ made by RTsoft. Besides twisted humour, it includes the actual game
+ editor, allowing players to create hundreds of new adventures called
+ Dink Modules or D-Mods for short.
+ .
+ This package contains the original game story, along with free sound
+ and music replacements.
 
 Package: freedm
 Source: freedoom
@@ -53892,6 +56134,56 @@ Description: easy to manage, privacy oriented home server
  This package provides the FreedomBox Service (Plinth) which installs,
  configures and manages all functions of FreedomBox. The service is managed
  using a web interface available at https://localhost/.
+
+Package: freedombox-doc-en
+Source: freedombox
+Version: 23.6.2+deb12u1
+Architecture: all
+Maintainer: FreedomBox packaging team <freedombox-pkg-team@lists.alioth.debian.org>
+Installed-Size: 48919
+Multi-Arch: foreign
+Homepage: https://salsa.debian.org/freedombox-team/freedombox
+Priority: optional
+Section: doc
+Filename: pool/main/f/freedombox/freedombox-doc-en_23.6.2+deb12u1_all.deb
+Size: 44255204
+SHA256: 4631f393e63e1d98cf9466efeac7ba98361922d6bdeb281380799312f2559d00
+SHA1: 40944f53988e9a1d244b5f7c5f52369d7bf67deb
+MD5sum: 36aa7165e5bb871ab7a724879bee1461
+Description: easy to manage, privacy oriented home server - user manual (English)
+ FreedomBox is designed to be your own inexpensive server at home. It runs free
+ software and offers an increasing number of services ranging from a calendar or
+ jabber server to a wiki or VPN. A web interface allows you to easily install
+ and configure your apps.
+ .
+ This package contains the English user manual in HTML and PDF formats. It
+ describes how to setup and use each application in FreedomBox and FreedomBox
+ itself. It is accessible from Help menu in the FreedomBox web interface.
+
+Package: freedombox-doc-es
+Source: freedombox
+Version: 23.6.2+deb12u1
+Architecture: all
+Maintainer: FreedomBox packaging team <freedombox-pkg-team@lists.alioth.debian.org>
+Installed-Size: 49011
+Multi-Arch: foreign
+Homepage: https://salsa.debian.org/freedombox-team/freedombox
+Priority: optional
+Section: doc
+Filename: pool/main/f/freedombox/freedombox-doc-es_23.6.2+deb12u1_all.deb
+Size: 43825620
+SHA256: f7ea742096946154a673a45592e64b09e6bdd58bc6b1a1df0e94f3b04b659649
+SHA1: 8e16ad0a1abcee8a0ab8a63187202efeb29bb87b
+MD5sum: ff3332b1ad15f7f8d676534295e34061
+Description: easy to manage, privacy oriented home server - user manual (Spanish)
+ FreedomBox is designed to be your own inexpensive server at home. It runs free
+ software and offers an increasing number of services ranging from a calendar or
+ jabber server to a wiki or VPN. A web interface allows you to easily install
+ and configure your apps.
+ .
+ This package contains the Spanish user manual in HTML and PDF formats. It
+ describes how to setup and use each application in FreedomBox and FreedomBox
+ itself. It is accessible from Help menu in the FreedomBox web interface.
 
 Package: freedoom
 Version: 0.12.1-2
@@ -54137,6 +56429,26 @@ Description: GNU implementation of the IPMI protocol - common files
  .
  This package provides configuration used by the rest of FreeIPMI
  framework and generic documentation to orient the user.
+
+Package: freepats
+Version: 20060219-4
+Architecture: all
+Maintainer: Georges Khaznadar <georgesk@debian.org>
+Installed-Size: 32646
+Multi-Arch: foreign
+Homepage: http://freepats.zenvoid.org/
+Priority: optional
+Section: sound
+Filename: pool/main/f/freepats/freepats_20060219-4_all.deb
+Size: 25089504
+SHA256: 1282628c7ec015f0d39a8b1ee58a2d942220bbad38173d005bbfbaaf36e1d6f1
+SHA1: 8c806353e5e60bac5ff7db8ab8f2f83bc487d07c
+MD5sum: 0ce3ac38f60df6b2eac8a3d5376b30f7
+Description: Free patch set for MIDI audio synthesis
+ Freepats is a free patch set suitable for MIDI audio synthesis.  It is not
+ complete, nor comprehensive yet.
+ .
+ This is the legacy, small version of freepats in GUS patch format.
 
 Package: freeplane
 Version: 1.7.10-1
@@ -54578,6 +56890,44 @@ Description: minimalistic plugin API for video effects, API documentation
  .
  This package contains the API documentation.
 
+Package: fretsonfire-songs-muldjord
+Version: 2.dfsg-2.1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 28992
+Suggests: fretsonfire-game
+Priority: optional
+Section: games
+Filename: pool/main/f/fretsonfire-songs-muldjord/fretsonfire-songs-muldjord_2.dfsg-2.1_all.deb
+Size: 29272812
+SHA256: b37adf8b08b46d4182c283e760e4f40622d83674e05803960ea1e11a92600c7b
+SHA1: ee852de29b126632a840704647ee93c2f33a3ef4
+MD5sum: b6eeecddfa57ffb57074b1abff5d8a13
+Description: game of musical skill and fast fingers - Songs Package
+ Frets on Fire is a game of musical skill and fast fingers. The aim of
+ the game is to play guitar with the keyboard as accurately as possible.
+ .
+ This is a data package of songs written by Muldjord
+
+Package: fretsonfire-songs-sectoid
+Version: 1.dfsg-3.1
+Architecture: all
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Installed-Size: 29634
+Suggests: fretsonfire-game
+Priority: optional
+Section: games
+Filename: pool/main/f/fretsonfire-songs-sectoid/fretsonfire-songs-sectoid_1.dfsg-3.1_all.deb
+Size: 29087520
+SHA256: 14c1ed3e43c1a6a80eae7698f0469a0825cd1184e441968d62df89ca418aa0b4
+SHA1: 87e41ad3e073e6325f04811997e8f0dae31c5f54
+MD5sum: ff299eccdbd3857c589695647792cc6c
+Description: game of musical skill and fast fingers - Songs Package
+ Frets on Fire is a game of musical skill and fast fingers. The aim of
+ the game is to play guitar with the keyboard as accurately as possible.
+ .
+ This is a data package of songs written by Sectoid
+
 Package: fricas-databases
 Source: fricas
 Version: 1.3.8-6
@@ -54864,6 +57214,31 @@ Description: Easy-to-use electronic design software (parts files)
  .
  This package contains the architecture independent parts files for Fritzing.
 
+Package: frogdata
+Version: 0.18-2
+Architecture: all
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Installed-Size: 244993
+Replaces: frog (<< 0.12.15)
+Multi-Arch: foreign
+Homepage: http://languagemachines.github.io/frog/
+Priority: optional
+Section: science
+Filename: pool/main/f/frogdata/frogdata_0.18-2_all.deb
+Size: 32390244
+SHA256: 69a26b918217855d4db63fc281cbda861cdc89ac380be2705d1bee2959443a7d
+SHA1: 0d7c152c2afbb4f9dccb3d2adfa87427c1e4c94b
+MD5sum: 9597d697e34ee158dd90fdfa846404c9
+Description: Data files for Frog
+ Frog is a modular system integrating a morphosyntactic tagger, lemmatizer,
+ morphological analyzer, and dependency parser for the Dutch language.
+ .
+ This package provided necessary datafiles for running Frog.
+ .
+ Frog is a product of the ILK Research Group (Tilburg University,
+ The Netherlands) and the CLiPS Research Centre (University of Antwerp,
+ Belgium).
+
 Package: frogr-data
 Source: frogr
 Version: 1.7-1
@@ -54887,6 +57262,29 @@ Description: Flickr Remote Organizer for GNOME - data files
  descriptions, setting tags and managing sets.
  .
  This package contains the architecture-independent data files.
+
+Package: frozen-bubble-data
+Source: frozen-bubble
+Version: 2.212-11
+Architecture: all
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Installed-Size: 24284
+Recommends: frozen-bubble
+Multi-Arch: foreign
+Homepage: http://www.frozen-bubble.org/
+Priority: optional
+Section: games
+Filename: pool/main/f/frozen-bubble/frozen-bubble-data_2.212-11_all.deb
+Size: 21929412
+SHA256: 39cdfd07d9532d1558762cf265a844d09015c4540568573c50f444cc084166e0
+SHA1: fe15ea95d39dcf84f92b4824eca6dc6bd2082769
+MD5sum: ebe5a334e40b610ea3cc5b7ecb48ae1f
+Description: Data files for Frozen-Bubble game
+ Frozen-Bubble is a clone of the popular "Puzzle Bobble" game, featuring
+ 100 single-player levels and a two-player mode.
+ .
+ This package contains the sound files, graphics and levels for
+ Frozen-Bubble.
 
 Package: frr-doc
 Source: frr

@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-security
 Version: 2024
-Date: Sat, 08 Jun 2024 00:43:29 UTC
+Date: Sat, 08 Jun 2024 01:02:15 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b54b255bc1d582e0926a1106744a97eab45d253266070f08149ffe2a27f4f6ce 202 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjqTIACgkQ5Vfn9vbt
-T6pguw/+M9mGiIvYPqa9LKGK02h2CzsFb9IKNAMULXLuw6r6EHtT/z3fpcmt0X0U
-+oeltU6rTr2Le1U2RvxsX4Ts+1vPg0tUI3hGHNqBhZS3dx75N0zC5Ey7klqjGNkv
-mGOKYTcjWSOwEWYaAzxu7yIc/ANvQ/TWb65LXqHq7IQDaIRyEjO5shoSO9F0IqwX
-ZbSU1Sg3EUkhlwg+puw6epsKGMMowSbO/kVVDZ/zITM8Hx0TFNWw0r4HmbxIdVzo
-YXF8alGMXjdk43mm8323L3Y/GclRYQ7mg+5msyuE8lsyWf9cL7/NQuKt4S97g2O9
-0UOZz84T/snIDlOAt5Zl8J2LCtXwETMU3wXqjLufuFTTV1TlZPjq16qEYVcwgvdf
-Z/FukSOpt4bmVgiuJzlSCG+yUU+btjlh0bIjeyLcw9pzJZrxR9UzQbGwBGMMpsvb
-cZ5QXQPHq/1QlgkqXZ1lqenShw0BExjApreJT7PQxUp5LQIez/O7HUt00Z5F6jyO
-jYufOn3sWiBZnp3ttJJ/HGIDzLl0gsyiCUAux5V6sLZWzLt5zZKYjhDEKKxi0YZc
-r1Yve5a4zOrEYpnwg7kCkEYk+vga1NAGL270WDwVprGwFq3vQ9AbEGDrtV6YUdfn
-h1Fb83ezddFwtc3mGrqzIHgZEx4L7M301HVjK7gUKaGCYRhARK0=
-=DRxS
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjrZgACgkQ5Vfn9vbt
+T6rrsA//RCIqla8rffp/pWEeUBsMFRjnngMY2IPly/t6CBbEhXufWjTMM+HdzvPb
+PafYohGnb3I3TF4BIvNvxi3AErrN7jjpZjVHlFhwEfpSXJSh0ZveRzjQ4yYqM8bF
+2UsASeM7XtosRA1Vv61W1oB/M1SVcIa3XvFZqb69/HbVbha+jCzo0YyxbsBx+hAi
+ubZxQzF4jLsjKO4QAVbXr94Vowrnnxk323n/GpEpYJr4YT/mDtxrRq4COVx2vIel
+eBXKoZJjJKsI/t2j7vRpkEJf3Z61jYgDKn0ckTt/ZraOM8pdsXG8xvYw8kaDrR09
+3dQxnEd3OuqZXEWjxn8fF+jyRhm4Xxmd5sCdWcF6wuZxbS/xH9zi0Hm0dXaljiNo
++FfJ1LDQjRMhMuNUM4/2oq3+3wGE7IJE3H3K1h+UQL/YU+XY6OlYWKAu9zErXd0V
+oWBE1jkwLjAlwXr1j83V9su5XRE/EX4Q3/FVtrS1uP2it7ZIak80Fx1ZKHQWzBMw
+h/VTtLlQ4nih+yTXp6pHsurQB1AKEdYO+iTtipa0pVB5e601a22Okl6HhDVoi5i+
+D2WuhQ1iYX6oeSAeDH4NZHV5+z75tru7Mp3qUa/hXFO2v15r0ExB1q7Y1vabyBsg
+KxD0nDEbobZw73BG8/tnrDi3jETdX4TAeByfjurKe5eJAao1ELU=
+=3+52
 -----END PGP SIGNATURE-----

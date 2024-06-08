@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-updates
 Version: 2024
-Date: Sat, 08 Jun 2024 00:43:28 UTC
+Date: Sat, 08 Jun 2024 01:02:14 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  0a2e8eded7d2ba5d048caf028e6ddce8a5234708849fab10d29d2eb93724fa36 201 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjqTEACgkQ5Vfn9vbt
-T6qLRw/+KLc8NK/tQHjC/u8iRljYvA+qvIFHyX2DpooKZbaOMS5jx9zHEvD3EddN
-X5hWT//pIopYsOiuMu4/1QmlXaz6gQ56Vce+G4dARQEDROcTTNbZZ4OadtV9g1Vt
-QGQ5Du4LfSkXY0mMEDDG+UBd1qXS6ToPVaj4Vus9MAjliOWzLGF36cW4a26K9u4B
-+qJN17xltzY6ub4ThDRZ9SxudSNM8P24k9TmZHsC4oi0z2+ZZgAffUQc5diEsID9
-PuFjEP5umYYC1kqffVsgiWs3L9DFowN+sooi7Kem2mXv3TwrW464oUafeCSXChsE
-X7DJTig3u32cdjda/gtxeguFbYOVENCnXAW5UDkRaSeYYPO/9I3BICHgw4EEM92k
-uZzRUfKZmS2IiUihISNk2bIyHPMSv6ywaiRffpPEE9EodhZJcTpmTgkEwpKYrLjd
-OWdQKJ5RBVriuoRzptXa95EObQ3ykWn4WUavZknhauQP9RSa8eVg96+pGmQQZ1MV
-QJexBWOtWq25qcjwVDqbwhLt3TI3tbXIZMLnxh4Dfe8rqMl6wBSQwa9Pt9Y/FRUN
-gjAZp0XpxKv1oPpu9AAUbFkvbeifavfAJCEaONXK6alS3N/HSEK6qZ3sidlea3lY
-tkePWcGqOcpUI0I8Pob38pbNuQo2K3ZLQ+PDoUwUM2A7reIu/HQ=
-=7vqT
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjrZcACgkQ5Vfn9vbt
+T6qYOA//ZwLUEKASkOmnNLQte0BN/BsG4SHc3kzwgxUQiIlbPlVK7rjKzSl0r5m6
+3b2SzMxnm9LOt7gWOMTx++shiZGAyefsO67293b5lj4J1NC7lNSsbHmdmjooPMBY
+7MEU7xuX+4n6QYAEBHF+tO2YdaEimwN0GUD33hWALkekeeJkmraxVX9djfS3LdlE
+trg499oNdykcH3XRzvqRpo47u10OBRuBH+srcCzlkh7SU/9oC8dR0gVcspIj4+oZ
+UVWfY61/5DVLJPQkqjtOQpQs+pCdyt9vSgSU57RfINbA7uM4PYjf1s8vvg98Pd2K
+W9HI7cFbLaDu6a2BOL2wR0ebpWzR6sLsdXQUFgkSn+RuoxziAnGTzCu2EwBCfxMp
+3XgvESaveQ2QrQxh/kBj4EBh8gwxItky81po9TVQE975OVD3cs+etXGtHFBvvTs2
+9jTFskj4Alm240QQjJJbnBp0csePPIQVBTFyWqWNC9ZWbrcD/kqNJcmUtzLtUooU
+69Cor+3/Jo8GbuI9dKDo3EN6bVuoHDyFCTHRmhjF8+pBXGJ5sDypBmfyRNgINMLz
+sNskQF3ncVehd+v5in+Aa7hUSjCPiNjCbV804Xs5YOKOyXKQkABZFpw45V0eEPo2
+bFUDpPMGwIAdrKhYILYO31hy85yKuHFJaolFw9oo/Na+Gh6q5aY=
+=ImpD
 -----END PGP SIGNATURE-----

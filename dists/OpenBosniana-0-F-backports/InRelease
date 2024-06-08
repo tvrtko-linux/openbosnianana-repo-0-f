@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-backports
 Version: 2024
-Date: Sat, 08 Jun 2024 00:43:27 UTC
+Date: Sat, 08 Jun 2024 01:02:14 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b7edb28d8597d861974966932cfcd924a529c35c95d33311e80f823e0d4ec9a4 203 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjqTAACgkQ5Vfn9vbt
-T6rYVg//Yf/axlS+RGmTNroQQsrVkfS2l6Sf8QDUP7hGHa97J2K0vbX9TTkwtGOB
-6QAN+QP1n3bwCCSfG7QdpdhEhsqxHemJOLSNrwR2Ev+i0Ti3W2VSOtxV0jwO2nNj
-JCufUxYjkxzHUgJS3aJzbjXT4BLYjSDK7De4cloK2yOPOyW4SRH0yOhMfQm9aNto
-vbFmz3IhoVCCbeMMNbkskV7Jyp/EyhlhjUCbJhcG7ojAgVLgnbwvWgaqZZcJR7y0
-QGnpurgEqfq9NFaqJeWb7mGEf/Dpj8hh6Vqc/LlX+JitFhPo4eWl2e8l+tkmMNv4
-L8sPuNmn1zEvg/FiKQ0KWuslSPd+sM5nVbguanUvY4nJRp+gPgWO/LV6GrEpRwoT
-FtGvjtsfFlvKpSQxNVyrDajG6jMnD0ClrcIGetVskAhdbTqjccCa1+TOrqAZ2qsx
-GE+wv/s6+qJ8O06he2vgKAWILx75l8SANcMlgTfruteWG7zNVBezji6b+QVYAcma
-xS0NgtkIu2avZ9Dld1pSF2oOzI4d39crTMGXOeushwu63IK7HZBgMrITgHCvWqf6
-tX77nkDFE7jI+WONN05AbCCgdNj6Sr68K0CDN+5jztYnMjlQyQ/GNIdEFRXkbxOR
-+kYo2IWU2+EElaC3BB0u/Ti/oSDUdKm8kd6mkpPSjW4qD0437+8=
-=QdOI
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjrZYACgkQ5Vfn9vbt
+T6o0FQ/9Fny2N4metUV+++PMeEP4Ttbz5l4XHTtX99bWQCsHYw/jLQua2EZD6sHM
+09hqNCf+H20NHZP4kzTHds3cf50TkrXsCa8ggZBZfjY1B+7445iQa6IvPkaDCriB
+P+ev5W/zEXIsqrgX4cIECOj2w40aptlI1iWvE56yexdWNkHilzhgCbWFwOgxCH6X
+1+PPIunVPno6YH0bb+liHB84fhetJ8/I8ZjnMNiwwArTU75A4p1Zs8wtRakJuCU9
+clzz0dFGuhZFdDy2wv8sIquCb1f7uYA2sKy1PzezF677Ochs81kNb2EERLiOfNpr
+hB/00BN4BrqTgyXCqoHyVmXE+I61CaVvRXepH9/yl3umS1m5YGgZj19kfYVDCIPN
+KeRTWH3ZvHpoDuIEEI/S4B0h3cywXmMbEtts2r1KDOOLyhMc16Oa3Axrm2M6T8eO
+bUBId4CGWGVlbsXpi6uhKeKG69BeDHtLB8m089heeqqh3ndmcF/uTIxKulqdHnpv
+LEqI/m9PtvQCA9RCS5T2YNVUREeuCiIH0gExltj3n1N5LufxZDjqmApm7So3iJs+
+UHqA49ecUvPwYALf3ElHKjSW27O4VFX4OUqwu2c7gbqElSeIfr5Sfoc/b+Oc2nx4
+/CovB6O+dVVwY1aq3yc4ykm/rGFH86GcJJoK6Hy6i2//gg8QSVs=
+=aeJU
 -----END PGP SIGNATURE-----

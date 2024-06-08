@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-backports
 Version: 2024
-Date: Sat, 08 Jun 2024 00:01:48 UTC
+Date: Sat, 08 Jun 2024 00:43:27 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  b7edb28d8597d861974966932cfcd924a529c35c95d33311e80f823e0d4ec9a4 203 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjn2wACgkQ5Vfn9vbt
-T6pzKw//cQgv8uedmSHrtmXurcz4QgS2Y8NOS6pQgyy8uMyJNePnJKTpxLlfJFCr
-twnUbo/ar5TJKSlBnNDUeLZEME7G21QtK0RHloGR++wDxHOsiSEI69CuRPVBscX7
-DMlXAtFNQe4cs1Tqoc9FfKInXKi2bQxk/npgNr7lcTR3c5N+nO2q5BYbJu3f4r/x
-SrqyuWACGN5VbOFTuAtU5HNSHkIpnChWDkqU0N0xH/HH3N+MCZN4aT9EZqWpdXGl
-tHRlsEmQYaq2U3X2JaTXd2ByzQ/4xqy+9E2kgxsh5HcpakmdNhKxETXW6UE9kS7/
-QYjhmYrWjSsY+Ov6FZK+pOgYrHE6/NVenZRsdy1UopLboHWiAM6nhfpWmNHB7bUy
-U5ZZFsjxEi1HEGhW+pwX/Nu/jfwY/8cRJGdgN4XqrcANzcuAIR15Hz2/+HzuYq99
-y0qg8+/x7+Fpqqsg1+nRn1/roaQj6m8r6SQK8ySnY9cyt1tVoE/+6cLa6MMO/1gH
-L90TrsJ/cnpaA41m90RAXYoY2ovHusfFNtBaz2XxXu6IsVKTxivl0PDy12UzEqYp
-Ihg/0thxF08i3BAKVYvKSE4Plm68m/p9OPvsItqHdJgLYfAj9cdaPk2uShwkGA0M
-HuhaezeDsj0ezEQzd9EpJ3NTH6PtoHfZA57NaYBGPxJJ5jP7aPA=
-=swMY
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjqTAACgkQ5Vfn9vbt
+T6rYVg//Yf/axlS+RGmTNroQQsrVkfS2l6Sf8QDUP7hGHa97J2K0vbX9TTkwtGOB
+6QAN+QP1n3bwCCSfG7QdpdhEhsqxHemJOLSNrwR2Ev+i0Ti3W2VSOtxV0jwO2nNj
+JCufUxYjkxzHUgJS3aJzbjXT4BLYjSDK7De4cloK2yOPOyW4SRH0yOhMfQm9aNto
+vbFmz3IhoVCCbeMMNbkskV7Jyp/EyhlhjUCbJhcG7ojAgVLgnbwvWgaqZZcJR7y0
+QGnpurgEqfq9NFaqJeWb7mGEf/Dpj8hh6Vqc/LlX+JitFhPo4eWl2e8l+tkmMNv4
+L8sPuNmn1zEvg/FiKQ0KWuslSPd+sM5nVbguanUvY4nJRp+gPgWO/LV6GrEpRwoT
+FtGvjtsfFlvKpSQxNVyrDajG6jMnD0ClrcIGetVskAhdbTqjccCa1+TOrqAZ2qsx
+GE+wv/s6+qJ8O06he2vgKAWILx75l8SANcMlgTfruteWG7zNVBezji6b+QVYAcma
+xS0NgtkIu2avZ9Dld1pSF2oOzI4d39crTMGXOeushwu63IK7HZBgMrITgHCvWqf6
+tX77nkDFE7jI+WONN05AbCCgdNj6Sr68K0CDN+5jztYnMjlQyQ/GNIdEFRXkbxOR
++kYo2IWU2+EElaC3BB0u/Ti/oSDUdKm8kd6mkpPSjW4qD0437+8=
+=QdOI
 -----END PGP SIGNATURE-----

@@ -6,7 +6,7 @@ Label: OpenBosniana-0-F Repository
 Suite: 2024
 Codename: OpenBosniana-0-F-updates
 Version: 2024
-Date: Sat, 08 Jun 2024 01:02:14 UTC
+Date: Sat, 08 Jun 2024 01:25:58 UTC
 Architectures: i386 amd64 arm64
 Components: main contrib non-free non-free-firmware udeb
 Description: Last updated: Wed, 27 Mar 2024 03:30:11 +0100 Denni Msl
@@ -168,17 +168,17 @@ SHA256:
  0a2e8eded7d2ba5d048caf028e6ddce8a5234708849fab10d29d2eb93724fa36 201 udeb/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjrZcACgkQ5Vfn9vbt
-T6qYOA//ZwLUEKASkOmnNLQte0BN/BsG4SHc3kzwgxUQiIlbPlVK7rjKzSl0r5m6
-3b2SzMxnm9LOt7gWOMTx++shiZGAyefsO67293b5lj4J1NC7lNSsbHmdmjooPMBY
-7MEU7xuX+4n6QYAEBHF+tO2YdaEimwN0GUD33hWALkekeeJkmraxVX9djfS3LdlE
-trg499oNdykcH3XRzvqRpo47u10OBRuBH+srcCzlkh7SU/9oC8dR0gVcspIj4+oZ
-UVWfY61/5DVLJPQkqjtOQpQs+pCdyt9vSgSU57RfINbA7uM4PYjf1s8vvg98Pd2K
-W9HI7cFbLaDu6a2BOL2wR0ebpWzR6sLsdXQUFgkSn+RuoxziAnGTzCu2EwBCfxMp
-3XgvESaveQ2QrQxh/kBj4EBh8gwxItky81po9TVQE975OVD3cs+etXGtHFBvvTs2
-9jTFskj4Alm240QQjJJbnBp0csePPIQVBTFyWqWNC9ZWbrcD/kqNJcmUtzLtUooU
-69Cor+3/Jo8GbuI9dKDo3EN6bVuoHDyFCTHRmhjF8+pBXGJ5sDypBmfyRNgINMLz
-sNskQF3ncVehd+v5in+Aa7hUSjCPiNjCbV804Xs5YOKOyXKQkABZFpw45V0eEPo2
-bFUDpPMGwIAdrKhYILYO31hy85yKuHFJaolFw9oo/Na+Gh6q5aY=
-=ImpD
+iQIzBAEBCgAdFiEE4oyo8MJtqkFzJEJ95Vfn9vbtT6oFAmZjsyYACgkQ5Vfn9vbt
+T6rOrQ//cc+bUmSGgfdw99yYUK8gQUh/Kh23Lvly6gkNJ00P0fiQXXSntkgCrDwd
+UOQn+AnJncR98QDQgGWypnMSqfPIp0X0SqtcPqURJp4dqBHqmtsEnWIH4HB/IjPn
+h/Xm4uoXWgEYr/ceSSYujgTwq0zjPDi+xlvr53Cm3xgMxOpCdg1CsCx/ekRjHucO
+Ii+O91vFhJUstn+4Gl3ptDljoLiGSZ5VH5FNoNcW1cA9di9dK2MqnFxPspoD/738
+bikof866AyLJaKaJw40P3jnLg8uOnwkXOtKxp3fZqqrDihSUO+ar2LNINiw9zf07
+41pOCLLPnG/SzrzXbU5QXllzaKzJHtAlXK2I2vovwKaQ+yUrWQbvNMHYaQjwdPqP
+E5MkaYGYZLIif1r6Z/BmDYp3PLjvlichoO0HsVbrt2yRAdVLD2XkLNz7VLgU4R4A
+wN4Oa5xOW6XqpdZTOdUxJ3m3B+QA5EU0GZ50jGXOYVXBtSqvttimL939yyOS1gvo
+myGqMWFJQcl4fpe5O19evvCac4Xa7Q7CYzUFG5C+oOXC8xgjKa9qaRBD+/srU1/o
+m57LjuDUQmHuyAZBxq2dqkFO3RZRav3Uy+fzVvMiZaYowT4Vf40H+kx4F+YliKbU
+u8WEoC9Win8pSLHfGmYyfXjglRswDGbxpC0uRfpJgqurQqrZbRs=
+=8Q0i
 -----END PGP SIGNATURE-----
